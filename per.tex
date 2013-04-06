@@ -1,0 +1,425 @@
+%\documentclass[12pt,manuscript]{aastex}
+\documentclass[]{emulateapj}
+\bibliographystyle{apj}
+\usepackage{graphicx}
+\usepackage[suffix=]{epstopdf}
+\usepackage{natbib}
+\usepackage{amsmath}
+%         Make Scientific Notation
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+\usepackage{url} 
+
+\shortauthors{Davenport et al.}
+\shorttitle{2MASS Variability}
+
+\begin{document}
+ 
+\title{Periodic Variability from the 2MASS Calibration Scans}
+
+\author{James R. A. Davenport\altaffilmark{1,2},
+Andrew C. Becker\altaffilmark{2},
+Peter Plavchan\altaffilmark{3},
+Roc Cutri\altaffilmark{3}}
+
+ 
+\altaffiltext{1}{Corresponding author: jrad@astro.washington.edu}
+\altaffiltext{2}{Department of Astronomy, University of Washington, Box 351580, Seattle, WA 98195}
+\altaffiltext{3}{Infrared Processing and Analysis Center, California Institute of Technology, Pasadena, CA 91125, USA}
+
+
+
+\begin{abstract}
+data comes from 2mass-calpswdb, have over 100 million photometric measurements, totaling light curves for 113,030 point objects. we have run supersmoother period folding, ala MACHO, on every light curve. By hand verification used to check. many are found periodic, XX binaries, YY radial pulsators. These include the best sampled light curves for an RR Lyr and Cepheid variables in the NIR, and provide an important benchmark for modeling of these stars. An additional ZZ quasi-periodic variable stars are found. we have also characterized the variability properties as functions of color, finding nearly all objects have ``grey'' variability, where the amplitude is independent of wavelength chosen.
+\end{abstract}
+
+
+\keywords{variability, surveys, NIR}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+Arguably the two greatest advancements in optical and infrared photometric surveys within the past two decades have been 1) the advent of 1\% accurate multi-wavelength photometry for contiguous portions of the sky exceeding $\Omega\sim10^5$ deg$^2$, and 2) time resolved surveys spanning days to years baselines. As both the temporal and spatial domains are explored, new astrophysical phenomena are uncovered, while the previously rare events are placed in a statistical context. Naturally, the next generation survey will exploit both of these domains simultaneously, producing deep multi-wavelength surveys with both unprecedented spatial and temporal coverage. In order to prepare for these future surveys, which will contain orders of magnitude larger numbers of  variable sources, we must hone our skills using existing catalogs/databases. This will precipitate the development of new techniques, and inform the targeting, cadence, and observing strategies of the many future time domain surveys.
+
+%WISE will provide huge variability data in the mid IR for regions near the orbital poles. Many papers using NIR variability to study new physics. The VVV (VISTA variables in the V{\'{\i}}a L{\'a}ctea) survey in the bulge, DR1 just release \citep{vvv_dr1}
+
+The Two Micron All Sky Survey \citep[2MASS;][]{2mass} imaged the full sky in three, simultaneously obtained, near-infrared (NIR) bands. Survey operations were conducted between 1997 and 2001, using a northern and southern telescope. Photometric calibration for 2MASS was accomplished using repeated observations of 35 selected fields, which were spaced across the sky \citep{nikolaev2000}. An additional 5 tiles were imaged around the Large and Small Magellanic Clouds during the last year of operation. Each calibration field covered an area of approximately 8\farcm5 (RA) $\times 1^\circ$ (Dec). The 35 standard calibration fields were scanned ranging between 562 and 3,692 times over the 4 year period, yielding some of the best NIR light curves yet produced. The placement of these tiles is shown in Figure \ref{radec}, and they contain light curves for approximately 110,000 point source objects.
+
+
+This unique dataset has been used for a handful of studies to date. 
+\citet{plavchan2008a} characterized many of the details in analyzing this unique dataset for time domain studies. They also mined these data for periodic objects, finding 3 new M dwarf eclipsing binaries. 
+\citet{plavchan2008b} studied the 131 day periodic object, 2MASS J16271848--2429059, revealing a possible three-body YSO system. 
+\citet{sarajedini2009} utilized the images from multiple scans of calibration tile 90067 to produce a NIR color-magnitude diagram for the open cluster M67 that probed $\gtrsim$3 magnitudes deeper than the standard 2MASS point source catalog. 
+\citet{becker2008} discovered and characterized a 2.6 d M dwarf binary, 2MASS J01542930+0053266. This system was located in both the 2MASS calibration tile 90004, and the ``Stripe 82'' region of the Sloan Digital Sky Survey \citep[SDSS;][]{york2000} footprint, which yielded an 8-band light curve ($ugrizJHK_s$) for the binary. 
+Using 16 of the calibration tiles that overlapped the SDSS footprint, \citet{davenport2012} produced some of the first constraints on the properties of M dwarf flares in red optical and NIR bandpasses. 
+
+
+MENTION THESE TWO? 
+(P. Plavchan 2012 submitted) an analysis of a 92 day periodic YSO. 
+(J. Parks 2012 submitted) a detailed study of the $\rho$ Ophiuchus star forming region tile. 
+
+ADD PARAGRAPH PROMPTING USE OF 2MASS AS CENSUS FOR VARIABLES -- TAKE IDEAS FROM PROPOSAL
+
+In this paper we present a census of the periodic variable objects from this 4 year NIR survey. The data and period-finding methodology is outlined in \S2. We describe the selection and classification of binary stars and radial pulsating objects in \S3. Quasi-periodic and other large amplitude variables that were recovered are discussed in \S4. We examine the general variability characteristics of point sources in the 2MASS calibration scans in \S5, and concluding remarks are given in \S6.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{.1in}
+
+\section{Data}
+
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=7.0in]{new_plots/radec_psc}
+\caption{Spatial distribution of the 40 Cal-PSWDB tiles (orange circles), with titles for a few notable tiles labeled. Background contours denote increasing density from a sample of 3 million randomly drawn point sources from the 2MASS point source catalog, and trace the Galactic plane, bulge, and the Large and Small Magellanic Clouds.}
+\label{radec}
+\end{figure*}
+
+\vspace{.01in}
+
+
+
+%\begin{figure*}[!t]
+%\centering
+%\includegraphics[width=7.0in]{new_plots/big_cmd1}
+%\caption{color mag diagrams for the fields}
+%\label{cmd1}
+%\end{figure*}
+%\clearpage
+%
+%\begin{figure*}[!t]
+%\centering
+%\includegraphics[width=7.0in]{new_plots/big_cmd2}
+%\caption{color mag diagrams for the LMC/SMC fields}
+%\label{cmd2}
+%\end{figure*}
+
+
+lots of testing, characterization of the Cal-PSWDB done in \citep{plavchanphd,plavchan2008a}
+Each night during 2MASS operations, the survey telescopes were directed at one of the calibration fields once per hour (before 1997 October 11 UT two fields were observed every 2 hours). During each visit, six consecutive scans of the field were made in alternating declination directions in $\sim$10 minutes of elapsed real time (a ‘‘scan group’’). Each scan in the set of six was offset from the preceding scan by $\sim$5" in R.A. to avoid systematic pixel effects. The calibration fields were observed using the same ‘‘freeze-frame’’ scanning strategy used for the main survey that yielded a net 7.8 s exposure on the sky per scan. Over the course of the 2MASS survey, between 562 and 3692 independent observations were made of each of the 35 calibration fields. Table 1 presents a list of these fields and their aggregate properties.
+
+
+
+The raw imaging data from each scan of a 2MASS calibration field were reduced using the same automated data processing system used to process the survey observation data \citep{cutri2006}
+(Cutri et al. 2006, Section IV ). The reduction process detected and extracted source positions and photometry for all objects in the images from each scan. Measurements of the standard stars in each field were used to determine the nightly photometric zero-point solutions as a function of time, and seasonal atmospheric coefficients. All source extractions from all scans were loaded into the 2MASS Calibration Point Source Working Database (Cal-PSWDB). This database contains over 191 million source extractions derived from 73,230 scans of the 35 calibration fields. Further descriptions of the Cal- PSWDB and its properties can be found in Cutri et al. (2006).
+
+
+we ran the data through optics, got XX objects.
+
+each light curve was processed with supersmsoother
+
+objects with periods in at least 2 bands that were not obviously aliases were grabbed (about 2000 objects)
+
+each light curve was examined by eye, about 250 were bona fide good periodic objects
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Periodic Variables}
+things that SUPERSMOOTHER said were periodic in at least 2 bands we looked at, returned 2100 interesting objects. we searched all 2000 light curves of periodic things by eye to pick out the real ones. quite a few are noise. found correct periods by hand, trying folding objects at 1/2, 2, 2/3 etc. also folded at all periods determined for each band.  
+
+we also put the objects in to 4 classification bins by hand: obvious binaries with distinct eclipses, objects with very RR Lyr looking saw-tooth light curves, and sinusoidals which could be either W UMa or RR Lyr (a/b?). we also noted quasi-periodic or long period objects whose periods were not well sampled enough to accurately determine. those could be things like Miras, etc. this recovered 160 binaries, 8 pulsators. 25 other things.
+
+
+to quantitatively separate these things, need a more impartial method. Eclipsing binaries and pulsating variables can be separated and classified by fitting Fourier modes to the light curves \citep{pojmanski2002,nefs2012}.. we used similar methods as other authors, using the IDL FOURFIT package by Buie (online CITE/footnote).
+
+
+the binary type separation has been well-explored, and we use previously established equations (CITE Becker? for example). this puts them in 3 categories, which had excellent agreement with our initial by-eye analysis. we recover XX detached, YY semi-detached objects. contact binaries are called W UMa type, have very sinusoidal light curves. these are difficult to distinguish from rr lyr. sometimes they have color variations, but sometimes not if the mass ratio is near 1.
+
+the separation between binary stars and rr lyrae is more difficult. some types of RR Lyr look very similar to binaries, most especially RR Lyr type a (CHECK ON THIS).  to improve this, we need other types of Fourier cuts to quantify the asymmetry in the light curves. there is some previous work on this (\citep{aaas}?) but we found their cuts didn't make sense, possibly due to different fitting codes (?) or different wavelength(?). 
+
+using our by-eye categorization for objects, 8 for sure pulsators, we explored many combinations of Fourier parameter space. a4/a2 had been suggested previously as a good space to search in \citep{asas}. b1 makes sense, it is the first component of cosine asymmetry from the sinusoidal shape. binaries with eccentricity near 0 should not have any strong b modes. 
+
+
+
+To separate binaries from pulsators, we cut on:
+\begin{equation}
+b_1({\rm binary}) \ge  -0.13\left( \frac{a_4}{a_2} \right)- 0.3
+\end{equation}
+
+and different configurations of binaries can be determined using:
+\begin{eqnarray}
+a_4({\rm detached}) \ge & a_2(0.5 + a_2)\\
+a_4({\rm contact}) \le & a_2(0.125 + a_2)
+\end{eqnarray}
+
+\begin{figure}[]
+\centering
+\includegraphics[width=3.5in]{new_plots/four_a42b1}
+\includegraphics[width=3.5in]{new_plots/four_a2a4}
+\caption{Fourier modes used to select between eclipsing binaries and pulsators (top) and different classes of eclipsing binaries (bottom).}
+\label{four_bb}
+\end{figure}
+
+
+\begin{figure}[]
+\centering
+\includegraphics[width=3.5in]{new_plots/four_a2a4_jrad}
+\caption{My classification of different classes of eclipsing binaries (bottom). separation given in text}
+\label{four_bb2}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Binaries}
+We found 100 binaries, need a histogram of their periods. We recover nearly all the binaries from Plavchan's early work (8/23 missed so far)
+
+match to new paper by J Parks (2012)
+
+
+
+
+Using our by-hand classification, we can define the best line of delineation between contact and detached eclipsing binaries in this Fourier space. \citet{rucinski1997b} used $a_4< a_2(0.3 + a_2)$ to separate these two populations using OGLE light curves. We had 64 detached, 72 detached by hand classified. We used a brute-force approach to solve for the coefficient $C$ in 
+\begin{equation}
+a_4 = a_2(C + a_2)\,,
+\end{equation}
+calculating the fraction of each population correctly classified at each iteration. We used values of $c$ ranging from 0 to 1, in steps of 0.001. The best degree of separation was found for $C=0.334$, yielding 95\% completeness for contact binaries, and 92\% completeness for detached systems.
+
+
+the final sample of classified objects were: XX contact binaries, YY semi-detached, ZZ detached, 12 pulsators, and 25 quasi-periodic oddballs. a selection of the LPV/QPVs are given in Figure \ref{ll} (MOVE UP). this matched with total rates of these objects from other surveys? Check out OGLE or ASAS, have they got similar proportions of binaries and rr Lyr?
+
+
+
+
+for every binary, estimate the spectral type based on Davenport (2013 in prep) color-locus. use SDSS colors for stars w/ matches, and WISE colors for everything else (hopefully). this provides a much improved ability to select dM's, rather than a broad-brush color box previously used. We find XX eclipsing binaries with M dwarf colors (g-i between 2 and 3, or whatever). are any of these detached binaries? if so, gold mine. 5 of these are new, we have missed 5 from Plavchan work. Since very in depth effort been put towards rho Oph field, havent focused on these fields.
+
+55 contact, 43 semi-detached, 48 detached binaries based on the equations
+
+\begin{figure}[]
+\centering
+\includegraphics[width=3.5in]{new_plots/bb_perhist}
+\caption{Distribution of periods for objects selected as binaries. Note the sharp cutoff at $log P \sim -0.6$, $P \sim 0.25$ days.}
+\label{perhist}
+\end{figure}
+
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=3.5in]{new_plots/color_period_bb}
+\caption{Period versus median colors for objects selected as binaries. The photometry was not corrected for reddening. The power law short period contact binary limit from \cite{deb2011} is shown for comparison (solid grey line). NEW COLOR FOR LINE, MAKE SYMBOLS DIFFERENT USING CLASSIFICATION FROM FIGURE 2}
+\label{periods}
+\end{figure}
+
+
+examples of each type
+
+\begin{figure*}[]
+\centering
+\includegraphics[width=2.0in]{new_plots/bb1_6}
+\includegraphics[width=2.0in]{new_plots/bb1_7}
+\includegraphics[width=2.0in]{new_plots/bb1_8}
+\includegraphics[width=2.0in]{new_plots/bb1_10}
+\includegraphics[width=2.0in]{new_plots/bb1_13}
+\includegraphics[width=2.0in]{new_plots/bb1_15}
+\includegraphics[width=2.0in]{new_plots/bb1_16}
+\includegraphics[width=2.0in]{new_plots/bb1_17}
+\includegraphics[width=2.0in]{new_plots/bb1_18}
+\includegraphics[width=2.0in]{new_plots/bb1_21}
+\includegraphics[width=2.0in]{new_plots/bb1_28}
+\caption{contact binaries}
+\label{bin1}
+\end{figure*}
+
+
+\begin{figure*}[]
+\centering
+\includegraphics[width=2.0in]{new_plots/bb3_0}
+\includegraphics[width=2.0in]{new_plots/bb3_2}
+\includegraphics[width=2.0in]{new_plots/bb3_3}
+\includegraphics[width=2.0in]{new_plots/bb3_6}
+\includegraphics[width=2.0in]{new_plots/bb3_10}
+\includegraphics[width=2.0in]{new_plots/bb3_14}
+\includegraphics[width=2.0in]{new_plots/bb3_16}
+\caption{detached binaries}
+\label{bin1}
+\end{figure*}
+
+
+%the shortest period (semi-) detached binary
+%\begin{figure}[]
+%\centering
+%\includegraphics[width=3.0in]{plots/shortest_sep}
+%\caption{detached binaries}
+%\label{shortbin}
+%\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Pulsators}
+Infrared observations of radial pulsating stars was first performed by \cite{wisniewski1968}, and detailed characterization was done for Cepheid variables by \cite{mcgonegal1982} and for RR Lyr variables by \cite{longmore1985}
+
+$K$-band templates first derived in \citet{jones1996}
+
+RR Lyr type variables belong broadly to two classes: RRab and RRc, defined by their light curve morphologies \citep{bailey1902}
+
+\citet{sollima2008} produced $JHK_s$ light curves for the prototypical star, RR Lyr.
+
+limited numbers found in the NIR, usually many few numbers of epochs and phase coverage \citep[e.g.][]{delprincipe2005}
+
+
+-- outline of section --
+these NIR light curves provide benchmarks for several classes of radial pulsating periodic variables. phase coverage is excellent for most of these objects
+
+we have the best cepheid NIR light curve, best regular RR Lyr, a good $\delta$ Scu, and probably some RR a and RR b types (need to look up difference). this list was matched up against SIMBAD, only XX were previously known about.
+
+No Blazko variables - though should check the known sample to see if any have it and don't show it here.
+
+the list is given in Table X, including distances computed using de-reddened and period-mag relations (CITE)
+
+\subsection{Effects of Shocks}
+the light curves can also be folded in to the color-mag space, and medians show kinks. we do this for all the objects.
+
+
+
+\begin{figure}[]
+\centering
+\includegraphics[width=3.0in]{new_plots/color_period_rr}
+\caption{17 radial pulsator variables. dashed line is theoretical prediction from \citet{catelan2004} with Z=0.001 (no discernible dependence on Z) dotted line is for cepheids, from ...}
+\label{rr_color_period}
+\end{figure}
+
+
+\begin{figure}[]
+\centering
+\includegraphics[width=3.0in]{new_plots/rr_0}
+\caption{$\delta$ Scu variable}
+\label{rrshort}
+\end{figure}
+
+
+\begin{figure}[]
+\centering
+\includegraphics[width=3.0in]{new_plots/rr_1}
+\includegraphics[width=3.0in]{new_plots/rr_8}
+\caption{Pulsators with RRc-type light curves.}
+\label{rrc}
+\end{figure}
+
+\begin{figure*}[]
+\centering
+\includegraphics[width=2.0in]{new_plots/rr_2}
+\includegraphics[width=2.0in]{new_plots/rr_3}
+\includegraphics[width=2.0in]{new_plots/rr_4}\\
+\includegraphics[width=2.0in]{new_plots/rr_5}
+\includegraphics[width=2.0in]{new_plots/rr_6}
+\includegraphics[width=2.0in]{new_plots/rr_7}
+\caption{RRab-type varaibles}
+\label{rrshort}
+\end{figure*}
+
+\begin{figure*}[]
+\centering
+\includegraphics[width=2.5in]{new_plots/rr_9}
+\includegraphics[width=2.5in]{new_plots/rr_10}
+\caption{Pulsators (cepheids)  with periods longer than 2 days}
+\label{rrlong}
+\end{figure*}
+
+
+ 
+
+%\includegraphics[width=2.0in]{new_plots/rr_cmd_0}
+%\includegraphics[width=2.0in]{new_plots/rr_cmd_1}
+%\includegraphics[width=2.0in]{new_plots/rr_cmd_2}\\
+%\includegraphics[width=2.0in]{new_plots/rr_cmd_3}
+%\includegraphics[width=2.0in]{new_plots/rr_cmd_4}
+%\includegraphics[width=2.0in]{new_plots/rr_cmd_5}\\
+%\includegraphics[width=2.0in]{new_plots/rr_cmd_6}
+%\includegraphics[width=2.0in]{new_plots/rr_cmd_7}
+%\includegraphics[width=2.0in]{new_plots/rr_cmd_8}
+
+\begin{figure*}[]
+\centering
+\includegraphics[width=2.0in]{new_plots/rr_cmd_2}
+\includegraphics[width=2.0in]{new_plots/rr_cmd_3}
+\includegraphics[width=2.0in]{new_plots/rr_cmd_4}\\
+\includegraphics[width=2.0in]{new_plots/rr_cmd_5}
+\includegraphics[width=2.0in]{new_plots/rr_cmd_6}
+\includegraphics[width=2.0in]{new_plots/rr_cmd_7}
+\caption{CMD of RRab pulsators}
+\label{cmdshort}
+\end{figure*}
+
+\begin{figure*}[]
+\centering
+\includegraphics[width=2.5in]{new_plots/rr_cmd_9}
+\includegraphics[width=2.5in]{new_plots/rr_cmd_10}
+\caption{CMD of Pulsators (cepheids)  with periods longer than 2 days}
+\label{cmdlong}
+\end{figure*}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Non-periodic Variables}
+Plavchan and student have done lots of work on this for $\rho$ Oph field. We will only add other things that were identified by hand
+
+\input{ll_table}
+
+\begin{figure}[]
+\centering
+\includegraphics[width=3.0in]{new_plots/nova}
+\caption{LMC, 377 epochs over 90 days, looks kinda like nova of some sort, no other known observations (that i've found)}
+\label{nova}
+\end{figure}
+
+
+\begin{figure*}[]
+\centering
+\includegraphics[width=2.0in]{new_plots/ll_22}
+\includegraphics[width=2.0in]{new_plots/ll_23}
+\includegraphics[width=2.0in]{new_plots/ll_24}
+\includegraphics[width=2.0in]{new_plots/ll_25}
+\includegraphics[width=2.0in]{new_plots/ll_26}
+\includegraphics[width=2.0in]{new_plots/ll_32}
+\includegraphics[width=2.0in]{new_plots/ll_36}
+\includegraphics[width=2.0in]{new_plots/ll_40}
+\includegraphics[width=2.0in]{new_plots/ll_41}
+\caption{some long quasi-periodic variable objects. a couple look like DY Per's maybe? Nothing quite like RCB}
+\label{ll}
+\end{figure*}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Transient Objects}
+% 
+% have not been able to recover anything i believe...
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Variability Characteristics}
+%
+%plots about ``color'' of variability, and overall trends
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\acknowledgements
+The authors acknowledge support from NASA ADP grant NNX09AC77G.
+
+This publication makes use of data products from the Two Micron All Sky Survey, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation.
+
+\input{bb_table}
+\input{rr_table}
+
+
+\bibliography{/Users/james/research/references}
+\end{document}
+
+
+
+
