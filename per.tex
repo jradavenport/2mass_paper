@@ -104,14 +104,16 @@ Each night during 2MASS operations, the survey telescopes were directed at one o
 The raw imaging data from each scan of a 2MASS calibration field were reduced using the same automated data processing system used to process the survey observation data \citep{cutri2006}
 (Cutri et al. 2006, Section IV ). The reduction process detected and extracted source positions and photometry for all objects in the images from each scan. Measurements of the standard stars in each field were used to determine the nightly photometric zero-point solutions as a function of time, and seasonal atmospheric coefficients. All source extractions from all scans were loaded into the 2MASS Calibration Point Source Working Database (Cal-PSWDB). This database contains over 191 million source extractions derived from 73,230 scans of the 35 calibration fields. Further descriptions of the Cal- PSWDB and its properties can be found in Cutri et al. (2006).
 
-
+% Clustering
 we ran the data through optics, got XX objects.
 
-each light curve was processed with supersmsoother
+% Quality photometry
+For the following analysis we only use data having photoemtric quality
+flags ``A'' through ``C'', effectively limiting us to S/N > 5, and
+corrected photometric uncertainties smaller than 0.22 magnitudes
+\citep{XXX}.
 
-objects with periods in at least 2 bands that were not obviously aliases were grabbed (about 2000 objects)
 
-each light curve was examined by eye, about 250 were bona fide good periodic objects
 
 
 
@@ -119,6 +121,67 @@ each light curve was examined by eye, about 250 were bona fide good periodic obj
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Periodic Variables}
+
+each light curve was processed with supersmsoother
+objects with periods in at least 2 bands that were not obviously aliases were grabbed (about 2000 objects)
+each light curve was examined by eye, about 250 were bona fide good periodic objects
+
+\subsection{Selection Criteria}
+To select objects likely to be periodic, we examined the periods
+returned in each of the three passbands.  We applied two sets of
+critieria based upon previous multi--band periodic variability
+studies.  Because {\tt Supersmoother} will report periods even when
+none are supported by the data, all stars in each candidate list were
+visually inspected to verify the periodicity of the system, and to
+classify the sources.
+
+The first selection criterion looks purely at the standard deviation
+of the period estimates, similar to the analysis of
+\cite{2011ApJ...731...17B}.  Briefly, this requires that the standard
+deviation of the period estimates, or of the period estimates
+corrected for aliasing, are smaller than $10^{-4}$ of their average
+value. This was done using all 3 periods, and as a looser cut, using
+only two of the three periods, since the $K_S$--band data typically
+have both lower signal--to--noise measurements and smaller lightcurve
+amplitudes.  This cut yielded 2073 candidates, each of which were
+folded at the reported periods and validated thorugh visual
+inspection.  In total 157 systems from this list were verifyed as
+periodic systems.
+
+As noted by \cite{2012AJ....144....9O}, this may present too stringent
+of a cut for longer period systems.  Because such systems will have
+gone through fewer oscillations in a given time window, their period
+is likely to be more poorly constrained.  For this reason, we apply a
+second criterion, which requires that the standard deviation of the
+periods divided by their average {\it squared} is less than $10^{-5}
+{\rm day}^{-1}$.  This set of cuts yielded 696 systems, of which 570
+were new candiates (meaning it recovered 126/157 of the previous
+objects).  XXX of these pass the human validation, and are included in
+this publication.
+
+
+We required one of the
+following three criteria be met before we considered the object a
+periodic candidate:
+
+\begin{itemize}
+
+\item The standard deviation of $P_J$, $P_H$, and $P_{K_{S}}$ was less
+  than $10^{-4}$ times their average value;
+
+\item We applied a similar test using the three periods modulo the
+  minimum of the three, to account for period aliasing;
+
+\item The standard deviation of two of the three periods is less than
+  $10^{-4}$ times their average value, for any combination of two of
+  the three filters.  This allowed us to account for the lower
+  photometric signal--to--noise and lightcurve amplitudes in the
+  $K_S$--band, which may yield poorer period estimates from {\tt
+    Supersmoother}.
+
+
+
+
 things that SUPERSMOOTHER said were periodic in at least 2 bands we looked at, returned 2100 interesting objects. we searched all 2000 light curves of periodic things by eye to pick out the real ones. quite a few are noise. found correct periods by hand, trying folding objects at 1/2, 2, 2/3 etc. also folded at all periods determined for each band.  
 
 we also put the objects in to 4 classification bins by hand: obvious binaries with distinct eclipses, objects with very RR Lyr looking saw-tooth light curves, and sinusoidals which could be either W UMa or RR Lyr (a/b?). we also noted quasi-periodic or long period objects whose periods were not well sampled enough to accurately determine. those could be things like Miras, etc. this recovered 160 binaries, 8 pulsators. 25 other things.
