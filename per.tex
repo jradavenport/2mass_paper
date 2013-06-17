@@ -3,6 +3,7 @@
 \bibliographystyle{apj}
 \usepackage{graphicx}
 %\usepackage[suffix=]{epstopdf}
+\usepackage{color}
 \usepackage{natbib}
 \usepackage{amsmath}
 %         Make Scientific Notation
@@ -121,22 +122,34 @@ In this paper we present a census of the periodic variable objects from the time
 %\end{figure*}
 
 
-lots of testing, characterization of the Cal-PSWDB done in \citep{plavchanphd,plavchan2008a}
-Each night during 2MASS operations, the survey telescopes were directed at one of the calibration fields once per hour (before 1997 October 11 UT two fields were observed every 2 hours). During each visit, six consecutive scans of the field were made in alternating declination directions in $\sim$10 minutes of elapsed real time (a ÔÔscan groupÕÕ). Each scan in the set of six was offset from the preceding scan by $\sim$5" in R.A. to avoid systematic pixel effects. The calibration fields were observed using the same ÔÔfreeze-frameÕÕ scanning strategy used for the main survey that yielded a net 7.8 s exposure on the sky per scan. Over the course of the 2MASS survey, between 562 and 3692 independent observations were made of each of the 35 calibration fields. Table 1 presents a list of these fields and their aggregate properties.
+Each night during 2MASS survey operations, the telescopes observed one
+of the calibration fields every hour (before 1997 October, two fields
+were observed every 2 hours).  The three--channel cameras employed by
+2MASS allowed for simultaneous imaging in the $J$ (1.25 $\mu$m), $H$
+(1.65 $\mu$m) and $Ks$ (2.17 $\mu$m) passbands.  During each visit, six consecutive scans of the field were made in alternating declination directions in $\sim$10 minutes of elapsed real time. Each scan in the set of six was offset from the preceding one by $\sim$5" in R.A. to avoid systematic pixel effects. The calibration scans were observed using the same ``freeze-frame'' observing strategy used for the main survey, which yielded a net 7.8 s exposure on the sky per scan. {\bf IS THIS TRUE} The combination of the 6 scans yielded a single ``observation'' for the purposes of this study.  Over the course of the 2MASS survey, between 562 and 3692 independent observations were made of each of the 35 calibration fields. In the final year of the survey, 5 additional fields the Small and Large Magellanic Clouds were repeatedly observed, and are also included in this study.  Table 1 presents a list of these fields and their aggregate properties.
 
+Lots of testing, characterization of the Cal-PSWDB done in \citep{plavchanphd,plavchan2008a}
 
+The raw imaging data from each scan of a 2MASS calibration field were reduced using the same automated data processing system used to process the survey observation data \footnote{http://www.ipac.caltech.edu/2mass/releases/allsky/doc/explsup.html}. The reduction process detected and extracted source positions and photometry for all objects in the images from each scan. Measurements of the standard stars in each field were used to determine the nightly photometric zero-point solutions as a function of time, and seasonal atmospheric coefficients. All source extractions from all scans were loaded into the 2MASS Calibration Point Source Working Database (Cal-PSWDB). This database contains over 196 million source extractions derived from 74,772 scans of the 35 calibration plus 5 Magellanic Cloud fields. 
 
-The raw imaging data from each scan of a 2MASS calibration field were reduced using the same automated data processing system used to process the survey observation data \citep{cutri2006}
-(Cutri et al. 2006, Section IV ). The reduction process detected and extracted source positions and photometry for all objects in the images from each scan. Measurements of the standard stars in each field were used to determine the nightly photometric zero-point solutions as a function of time, and seasonal atmospheric coefficients. All source extractions from all scans were loaded into the 2MASS Calibration Point Source Working Database (Cal-PSWDB). This database contains over 191 million source extractions derived from 73,230 scans of the 35 calibration fields. Further descriptions of the Cal- PSWDB and its properties can be found in Cutri et al. (2006).
-
-% Clustering
-we ran the data through optics, got XX objects.
-
-% Quality photometry
-For the following analysis we only use data having photometric quality
-flags ``A'' through ``C'', effectively limiting us to S/N > 5, and
-corrected photometric uncertainties smaller than 0.22 magnitudes
-\citep{XXX}.
+We acquired the entirety of the Cal-PSWDB and LMC/SMC Cal-PSWDB
+through a bulk catalog download, and ingested all data into a MySQL
+database.  In these original data, the {\tt gcntr} field was used as a
+unique identifier for all the merged point--source detections,
+i.e. all sources with the same {\tt gcntr} should be associated with
+the same astrophysical object.  However, the distributions of
+astrometric centroids for a significant number of these objects
+appeared multi--model, indicating an insufficient job of
+catalog--level deblending.  For this reason, we performed a wholesale
+reanalysis of all of the source positions, clustering them into a
+final set of 113,030 ``objects'' using the {\tt OPTICS} algorithm
+\cite{optics}.  These objects have on average smaller RMS centroid
+uncertainties and longer lightcurves, indicating that {\tt OPTICS}
+both performed a better job of deblending and at associating epochs
+together.  {\bf WE NEED TO CHARACTERIZE THIS}.  Bulk lightcurve
+metrics were calculated using only data with photometric quality flags
+``A'' through ``C'', effectively limiting us to S/N $>$ 5, and corrected
+photometric uncertainties smaller than 0.22 magnitudes.
 
 
 
@@ -147,9 +160,16 @@ corrected photometric uncertainties smaller than 0.22 magnitudes
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Periodic Variables}
 
-each light curve was processed with Supersmoother
-objects with periods in at least 2 bands that were not obviously aliases were grabbed (about 2000 objects)
-each light curve was examined by eye, about 250 were bona fide good periodic objects
+To search for periodically variable objects, we used the {\tt
+  Supersmoother} algorithm that has been used in many previous
+astronomical datamining applications
+\citep[e.g.][]{2011ApJ...731...17B}.  Data from each of the three
+passbands were smoothed independently, resulting in 3 period estimates
+per object.
+
+%each light curve was processed with Supersmoother
+%objects with periods in at least 2 bands that were not obviously aliases were grabbed (about 2000 objects)
+%each light curve was examined by eye, about 250 were bona fide good periodic objects
 
 \subsection{Selection Criteria}
 To select objects likely to be periodic, we examined the periods
@@ -184,30 +204,9 @@ were new candidates (meaning it recovered 126/157 of the previous
 objects).  XXX of these pass the human validation, and are included in
 this publication.
 
-
-We required one of the
-following three criteria be met before we considered the object a
-periodic candidate:
-
-\begin{itemize}
-
-\item The standard deviation of $P_J$, $P_H$, and $P_{K_{S}}$ was less
-  than $10^{-4}$ times their average value;
-
-\item We applied a similar test using the three periods modulo the
-  minimum of the three, to account for period aliasing;
-
-\item The standard deviation of two of the three periods is less than
-  $10^{-4}$ times their average value, for any combination of two of
-  the three filters.  This allowed us to account for the lower
-  photometric signal--to--noise and lightcurve amplitudes in the
-  $K_S$--band, which may yield poorer period estimates from {\tt
-    Supersmoother}.
-
-
-\end{itemize}
-
-
+\begin{center}
+{\color{red} \line(1,0){250}}
+\end{center}
 
 things that SUPERSMOOTHER said were periodic in at least 2 bands we looked at, returned 2100 interesting objects. we searched all 2000 light curves of periodic things by eye to pick out the real ones. quite a few are noise. found correct periods by hand, trying folding objects at 1/2, 2, 2/3 etc. also folded at all periods determined for each band.  
 

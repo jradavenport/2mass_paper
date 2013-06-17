@@ -21,8 +21,6 @@ I was expecting a `,' or a `}'---line 9872 of file refs.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "plavchanphd"
 Warning--I didn't find a database entry for "plavchan2008a"
-Warning--I didn't find a database entry for "cutri2006"
-Warning--I didn't find a database entry for "XXX"
 Warning--I didn't find a database entry for "pojmanski2002"
 Warning--I didn't find a database entry for "nefs2012"
 Warning--I didn't find a database entry for "aaas"
@@ -37,45 +35,45 @@ Warning--I didn't find a database entry for "bailey1902"
 Warning--I didn't find a database entry for "sollima2008"
 Warning--I didn't find a database entry for "delprincipe2005"
 Warning--I didn't find a database entry for "catelan2004"
-You've used 16 entries,
+You've used 17 entries,
             2964 wiz_defined-function locations,
-            782 strings with 14648 characters,
-and the built_in function-call counts, 17792 in all, are:
-= -- 1295
-> -- 2165
+            787 strings with 14987 characters,
+and the built_in function-call counts, 18465 in all, are:
+= -- 1351
+> -- 2212
 < -- 2
-+ -- 845
-- -- 828
-* -- 1993
-:= -- 3406
-add.period$ -- 16
-call.type$ -- 16
-change.case$ -- 454
-chr.to.int$ -- 15
-cite$ -- 16
-duplicate$ -- 305
-empty$ -- 442
-format.name$ -- 874
-if$ -- 3113
++ -- 861
+- -- 843
+* -- 2052
+:= -- 3519
+add.period$ -- 17
+call.type$ -- 17
+change.case$ -- 462
+chr.to.int$ -- 16
+cite$ -- 17
+duplicate$ -- 333
+empty$ -- 490
+format.name$ -- 893
+if$ -- 3255
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 15
-newline$ -- 52
-num.names$ -- 65
-pop$ -- 460
+newline$ -- 55
+num.names$ -- 70
+pop$ -- 472
 preamble$ -- 1
-purify$ -- 454
+purify$ -- 462
 quote$ -- 0
-skip$ -- 248
+skip$ -- 275
 stack$ -- 0
-substring$ -- 332
-swap$ -- 12
+substring$ -- 363
+swap$ -- 18
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 144
+type$ -- 153
 warning$ -- 0
-while$ -- 58
+while$ -- 64
 width$ -- 0
-write$ -- 162
+write$ -- 173
 (There were 4 error messages)

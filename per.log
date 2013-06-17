@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2012.2.16)  17 JUN 2013 12:01
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2012.2.16)  17 JUN 2013 13:21
 entering extended mode
  %&-line parsing enabled.
 **per
@@ -172,6 +172,15 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \pt@column=\count104
 \pt@ncol=\count105
 )
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/astro/users/acbecker/latex/tex/color.cfg)
+Package color Info: Driver file: dvips.def on input line 130.
+
+(/usr/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
 (/usr/share/texmf/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip57
@@ -239,33 +248,33 @@ LaTeX Warning: Label `rrshort' multiply defined.
 )
 \openout1 = `per.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-Class revtex4 Info: Patching LaTeX tabular. on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+Class revtex4 Info: Patching LaTeX tabular. on input line 16.
 Class revtex4 Info: Patching unrecognized longtable package. (Proceeding with f
-ingers crossed) on input line 15.
-Class revtex4 Info: cite was not loaded (OK!) on input line 15.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 15.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 43.
+ingers crossed) on input line 16.
+Class revtex4 Info: cite was not loaded (OK!) on input line 16.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 16.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 44.
  (/usr/share/texmf/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
@@ -276,165 +285,161 @@ perscript {1,2}, Andrew C. Becker\textsuperscript {2}, Peter Plavchan\textsuper
 script {3}, Roc Cutri\textsuperscript {3}.
 
 [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
  (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
 File: new_plots/radec_psc.eps Graphic file (type eps)
  <new_plots/radec_psc.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
  []
 
 
 Package natbib Warning: Citation `plavchanphd' on page 2 undefined on input lin
-e 124.
+e 131.
 
 
 Package natbib Warning: Citation `plavchan2008a' on page 2 undefined on input l
-ine 124.
-
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
-Missing character: There is no Õ in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Õ in font cmr10!
-Missing character: There is no Õ in font cmr10!
-
-Package natbib Warning: Citation `cutri2006' on page 2 undefined on input line 
-129.
+ine 131.
 
 
-Package natbib Warning: Citation `XXX' on page 2 undefined on input line 139.
+Overfull \hbox (29.10495pt too wide) in paragraph at lines 133--133
+[][]| [] []\OT1/cmr/m/n/8 http://www.ipac.caltech.edu/2mass/releases/allsky/doc
+/explsup.html| 
+ []
 
 
-Package natbib Warning: Citation `pojmanski2002' on page 2 undefined on input l
-ine 217.
-
-
-Package natbib Warning: Citation `nefs2012' on page 2 undefined on input line 2
-17.
+Overfull \hbox (4.73347pt too wide) in paragraph at lines 208--209
+ |[] 
+ []
 
 [2]
 
-Package natbib Warning: Citation `aaas' on page 3 undefined on input line 222.
+Package natbib Warning: Citation `pojmanski2002' on page 3 undefined on input l
+ine 216.
 
 
-Package natbib Warning: Citation `asas' on page 3 undefined on input line 224.
+Package natbib Warning: Citation `nefs2012' on page 3 undefined on input line 2
+16.
+
+
+Package natbib Warning: Citation `aaas' on page 3 undefined on input line 221.
+
+
+Package natbib Warning: Citation `asas' on page 3 undefined on input line 223.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 239.
+               Default added (so using `tbp') on input line 238.
 
 File: new_plots/four_a42b1.eps Graphic file (type eps)
 <new_plots/four_a42b1.eps>
 File: new_plots/four_a2a4.eps Graphic file (type eps)
  <new_plots/four_a2a4.eps>
-Overfull \hbox (7.67847pt too wide) in paragraph at lines 241--243
+Overfull \hbox (7.67847pt too wide) in paragraph at lines 240--242
  [][] 
  []
 
 
-Overfull \hbox (7.67847pt too wide) in paragraph at lines 241--243
+Overfull \hbox (7.67847pt too wide) in paragraph at lines 240--242
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 248.
+               Default added (so using `tbp') on input line 247.
 
 File: new_plots/four_a2a4_jrad.eps Graphic file (type eps)
 <new_plots/four_a2a4_jrad.eps>
-Overfull \hbox (7.67847pt too wide) in paragraph at lines 250--251
+Overfull \hbox (7.67847pt too wide) in paragraph at lines 249--250
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 
  []
 
 
 Package natbib Warning: Citation `rucinski1997b' on page 3 undefined on input l
-ine 267.
+ine 266.
 
 [3]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 280.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 274.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 280.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 274.
 
 
 Class revtex4 Warning: Deferred float stuck during \clearpage processing.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 283.
+               Default added (so using `tbp') on input line 282.
 
 File: new_plots/bb_perhist.eps Graphic file (type eps)
 <new_plots/bb_perhist.eps>
-Overfull \hbox (7.67847pt too wide) in paragraph at lines 285--286
+Overfull \hbox (7.67847pt too wide) in paragraph at lines 284--285
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 
  []
 
 File: new_plots/color_period_bb.eps Graphic file (type eps)
 <new_plots/color_period_bb.eps>
-Overfull \hbox (7.67847pt too wide) in paragraph at lines 294--295
+Overfull \hbox (7.67847pt too wide) in paragraph at lines 293--294
  [][] 
  []
 
 
 Package natbib Warning: Citation `deb2011' on page 4 undefined on input line 29
-5.
+4.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 302.
+               Default added (so using `tbp') on input line 301.
 
 File: new_plots/bb1_6.eps Graphic file (type eps)
 <new_plots/bb1_6.eps>
@@ -461,18 +466,18 @@ File: new_plots/bb1_21.eps Graphic file (type eps)
 <new_plots/bb1_21.eps>
 File: new_plots/bb1_28.eps Graphic file (type eps)
  <new_plots/bb1_28.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 320.
+               Default added (so using `tbp') on input line 319.
 
 File: new_plots/bb3_0.eps Graphic file (type eps)
 <new_plots/bb3_0.eps>
@@ -490,103 +495,104 @@ File: new_plots/bb3_14.eps Graphic file (type eps)
 File: new_plots/bb3_16.eps Graphic file (type eps)
 
 <new_plots/bb3_16.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 
  []
 
 
 Package natbib Warning: Citation `wisniewski1968' on page 4 undefined on input 
-line 347.
+line 346.
 
 
 Package natbib Warning: Citation `mcgonegal1982' on page 4 undefined on input l
-ine 347.
+ine 346.
 
 
 Package natbib Warning: Citation `longmore1985' on page 4 undefined on input li
-ne 347.
+ne 346.
 
 
 Package natbib Warning: Citation `jones1996' on page 4 undefined on input line 
-349.
+348.
 
 
 Package natbib Warning: Citation `bailey1902' on page 4 undefined on input line
- 351.
-
-
-Package natbib Warning: Citation `sollima2008' on page 4 undefined on input lin
-e 353.
-
-
-Package natbib Warning: Citation `delprincipe2005' on page 4 undefined on input
- line 355.
+ 350.
 
 [4]
-Underfull \hbox (badness 1189) in paragraph at lines 365--366
+
+Package natbib Warning: Citation `sollima2008' on page 5 undefined on input lin
+e 352.
+
+
+Package natbib Warning: Citation `delprincipe2005' on page 5 undefined on input
+ line 354.
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 364--365
 []\OT1/cmr/m/n/10 the list is given in Ta-ble X, in-clud-ing dis-tances
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 372.
+               Default added (so using `tbp') on input line 371.
 
 File: new_plots/color_period_rr.eps Graphic file (type eps)
 <new_plots/color_period_rr.eps>
 
 Package natbib Warning: Citation `catelan2004' on page 5 undefined on input lin
-e 375.
+e 374.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 380.
+               Default added (so using `tbp') on input line 379.
 
 File: new_plots/rr_0.eps Graphic file (type eps)
 <new_plots/rr_0.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 388.
+               Default added (so using `tbp') on input line 387.
 
 File: new_plots/rr_1.eps Graphic file (type eps)
 <new_plots/rr_1.eps>
 File: new_plots/rr_8.eps Graphic file (type eps)
  <new_plots/rr_8.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 396.
+               Default added (so using `tbp') on input line 395.
 
 File: new_plots/rr_2.eps Graphic file (type eps)
 <new_plots/rr_2.eps>
@@ -601,35 +607,35 @@ File: new_plots/rr_6.eps Graphic file (type eps)
  <new_plots/rr_6.eps>
 File: new_plots/rr_7.eps Graphic file (type eps)
  <new_plots/rr_7.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 408.
+               Default added (so using `tbp') on input line 407.
 
 File: new_plots/rr_9.eps Graphic file (type eps)
 <new_plots/rr_9.eps>
 File: new_plots/rr_10.eps Graphic file (type eps)
  <new_plots/rr_10.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 429.
+               Default added (so using `tbp') on input line 428.
 
 File: new_plots/rr_cmd_2.eps Graphic file (type eps)
 <new_plots/rr_cmd_2.eps>
@@ -644,29 +650,29 @@ File: new_plots/rr_cmd_6.eps Graphic file (type eps)
  <new_plots/rr_cmd_6.eps>
 File: new_plots/rr_cmd_7.eps Graphic file (type eps)
  <new_plots/rr_cmd_7.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 441.
+               Default added (so using `tbp') on input line 440.
 
 File: new_plots/rr_cmd_9.eps Graphic file (type eps)
 <new_plots/rr_cmd_9.eps>
 File: new_plots/rr_cmd_10.eps Graphic file (type eps)
  <new_plots/rr_cmd_10.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 445--445
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--445
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
 
  []
 
@@ -678,22 +684,22 @@ Package longtable Warning: Column widths have changed
 )
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 457.
+               Default added (so using `tbp') on input line 456.
 
 File: new_plots/nova.eps Graphic file (type eps)
 <new_plots/nova.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 465.
+               Default added (so using `tbp') on input line 464.
 
 File: new_plots/ll_22.eps Graphic file (type eps)
 <new_plots/ll_22.eps>
@@ -715,12 +721,12 @@ File: new_plots/ll_40.eps Graphic file (type eps)
  <new_plots/ll_40.eps>
 File: new_plots/ll_41.eps Graphic file (type eps)
  <new_plots/ll_41.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 
  []
 
@@ -739,7 +745,14 @@ Overfull \hbox (1.64937pt too wide) in paragraph at lines 1--47
  []$[]$ 
  []
 
-) (./per.bbl [5] [6])
+) (./per.bbl
+Overfull \vbox (24.3073pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (24.3073pt too high) has occurred while \output is active []
+
+
+[5] [6])
 
 Package natbib Warning: There were undefined citations.
 
@@ -752,12 +765,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3598 strings out of 256217
- 42932 string characters out of 1917095
- 136613 words of memory out of 1500000
- 6781 multiletter control sequences out of 10000+200000
+ 3777 strings out of 256217
+ 45815 string characters out of 1917095
+ 140187 words of memory out of 1500000
+ 6952 multiletter control sequences out of 10000+200000
  13369 words of font info for 55 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 35i,9n,28p,2125b,438s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 35i,10n,28p,2125b,450s stack positions out of 5000i,500n,6000p,200000b,15000s
 
-Output written on per.dvi (10 pages, 41700 bytes).
+Output written on per.dvi (10 pages, 45704 bytes).

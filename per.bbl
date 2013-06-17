@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{17}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aihara} {et~al.}(2011){Aihara}, {Allende Prieto}, {An}, {Anderson},
@@ -30,6 +30,12 @@
   Maga{\~n}a}, {Verde}, {Vogt}, {Wake}, {Wang}, {Weaver}, {Weinberg}, {White},
   {White}, {Yanny}, {Yasuda}, {Yeche}, \& {Zehavi}}]{2011ApJS..193...29A}
 {Aihara}, H., {et~al.} 2011, \apjs, 193, 29
+
+\bibitem[{Ankerst {et~al.}(1999)Ankerst, Breunig, Kriegel, \& Sander}]{optics}
+Ankerst, M., Breunig, M.~M., Kriegel, H.-P., \& Sander, J. 1999, in SIGMOD
+  1999, Proceedings ACM SIGMOD International Conference on Management of Data,
+  June 1-3, 1999, Philadephia, Pennsylvania, USA, ed. A.~Delis, C.~Faloutsos,
+  \& S.~Ghandeharizadeh (ACM Press), 49--60
 
 \bibitem[{{Becker} {et~al.}(2008){Becker}, {Agol}, {Silvestri}, {Bochanski},
   {Laws}, {West}, {Basri}, {Belokurov}, {Bramich}, {Carpenter}, {Challis},
