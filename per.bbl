@@ -1,129 +1,124 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{16}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
-\bibitem[{{Bailey}(1902)}]{bailey1902}
-{Bailey}, S.~I. 1902, Annals of Harvard College Observatory, 38, 1
+\bibitem[{{Aihara} {et~al.}(2011){Aihara}, {Allende Prieto}, {An}, {Anderson},
+  {Aubourg}, {Balbinot}, {Beers}, {Berlind}, {Bickerton}, {Bizyaev}, {Blanton},
+  {Bochanski}, {Bolton}, {Bovy}, {Brandt}, {Brinkmann}, {Brown}, {Brownstein},
+  {Busca}, {Campbell}, {Carr}, {Chen}, {Chiappini}, {Comparat}, {Connolly},
+  {Cortes}, {Croft}, {Cuesta}, {da Costa}, {Davenport}, {Dawson}, {Dhital},
+  {Ealet}, {Ebelke}, {Edmondson}, {Eisenstein}, {Escoffier}, {Esposito},
+  {Evans}, {Fan}, {Femen{\'{\i}}a Castell{\'a}}, {Font-Ribera}, {Frinchaboy},
+  {Ge}, {Gillespie}, {Gilmore}, {Gonz{\'a}lez Hern{\'a}ndez}, {Gott}, {Gould},
+  {Grebel}, {Gunn}, {Hamilton}, {Harding}, {Harris}, {Hawley}, {Hearty}, {Ho},
+  {Hogg}, {Holtzman}, {Honscheid}, {Inada}, {Ivans}, {Jiang}, {Johnson},
+  {Jordan}, {Jordan}, {Kazin}, {Kirkby}, {Klaene}, {Knapp}, {Kneib},
+  {Kochanek}, {Koesterke}, {Kollmeier}, {Kron}, {Lampeitl}, {Lang}, {Le Goff},
+  {Lee}, {Lin}, {Long}, {Loomis}, {Lucatello}, {Lundgren}, {Lupton}, {Ma},
+  {MacDonald}, {Mahadevan}, {Maia}, {Makler}, {Malanushenko}, {Malanushenko},
+  {Mandelbaum}, {Maraston}, {Margala}, {Masters}, {McBride}, {McGehee},
+  {McGreer}, {M{\'e}nard}, {Miralda-Escud{\'e}}, {Morrison}, {Mullally},
+  {Muna}, {Munn}, {Murayama}, {Myers}, {Naugle}, {Fausti Neto}, {Cuong Nguyen},
+  {Nichol}, {O'Connell}, {Ogando}, {Olmstead}, {Oravetz}, {Padmanabhan},
+  {Palanque-Delabrouille}, {Pan}, {Pandey}, {P{\^a}ris}, {Percival},
+  {Petitjean}, {Pfaffenberger}, {Pforr}, {Phleps}, {Pichon}, {Pieri}, {Prada},
+  {Price-Whelan}, {Raddick}, {Ramos}, {Reyl{\'e}}, {Rich}, {Richards}, {Rix},
+  {Robin}, {Rocha-Pinto}, {Rockosi}, {Roe}, {Rollinde}, {Ross}, {Ross},
+  {Rossetto}, {S{\'a}nchez}, {Sayres}, {Schlegel}, {Schlesinger}, {Schmidt},
+  {Schneider}, {Sheldon}, {Shu}, {Simmerer}, {Simmons}, {Sivarani}, {Snedden},
+  {Sobeck}, {Steinmetz}, {Strauss}, {Szalay}, {Tanaka}, {Thakar}, {Thomas},
+  {Tinker}, {Tofflemire}, {Tojeiro}, {Tremonti}, {Vandenberg}, {Vargas
+  Maga{\~n}a}, {Verde}, {Vogt}, {Wake}, {Wang}, {Weaver}, {Weinberg}, {White},
+  {White}, {Yanny}, {Yasuda}, {Yeche}, \& {Zehavi}}]{2011ApJS..193...29A}
+{Aihara}, H., {et~al.} 2011, \apjs, 193, 29
 
 \bibitem[{{Becker} {et~al.}(2008){Becker}, {Agol}, {Silvestri}, {Bochanski},
   {Laws}, {West}, {Basri}, {Belokurov}, {Bramich}, {Carpenter}, {Challis},
   {Covey}, {Cutri}, {Evans}, {Fellhauer}, {Garg}, {Gilmore}, {Hewett},
   {Plavchan}, {Schneider}, {Slesnick}, {Vidrih}, {Walkowicz}, \&
-  {Zucker}}]{becker2008}
+  {Zucker}}]{2008MNRAS.386..416B}
 {Becker}, A.~C., {et~al.} 2008, \mnras, 386, 416
 
-\bibitem[{{Catelan} {et~al.}(2004){Catelan}, {Pritzl}, \&
-  {Smith}}]{catelan2004}
-{Catelan}, M., {Pritzl}, B.~J., \& {Smith}, H.~A. 2004, \apjs, 154, 633
+\bibitem[{{Becker} {et~al.}(2011){Becker}, {Bochanski}, {Hawley}, {Ivezi{\'c}},
+  {Kowalski}, {Sesar}, \& {West}}]{2011ApJ...731...17B}
+{Becker}, A.~C., {Bochanski}, J.~J., {Hawley}, S.~L., {Ivezi{\'c}}, {\v Z}.,
+  {Kowalski}, A.~F., {Sesar}, B., \& {West}, A.~A. 2011, \apj, 731, 17
 
-\bibitem[{{Cutri}(2006)}]{cutri2006}
-{Cutri}, R.~M. 2006, Explanatory Supplement to the 2MASS All Sky Data Release
-  and Extended Mission Products, http://www.ipac.caltech.edu/2mass/releases/
-  allsky/doc/explsup.html
+\bibitem[{{Cutri}(2004)}]{Cutri-2massExtended}
+{Cutri}, R.~M. 2004, American Astronomical Society Meeting Abstracts, 205,
 
 \bibitem[{{Davenport} {et~al.}(2012){Davenport}, {Becker}, {Kowalski},
-  {Hawley}, {Schmidt}, {Hilton}, {Sesar}, \& {Cutri}}]{davenport2012}
+  {Hawley}, {Schmidt}, {Hilton}, {Sesar}, \& {Cutri}}]{2012ApJ...748...58D}
 {Davenport}, J.~R.~A., {Becker}, A.~C., {Kowalski}, A.~F., {Hawley}, S.~L.,
   {Schmidt}, S.~J., {Hilton}, E.~J., {Sesar}, B., \& {Cutri}, R. 2012, \apj,
   748, 58
 
-\bibitem[{{Deb} \& {Singh}(2011)}]{deb2011}
-{Deb}, S., \& {Singh}, H.~P. 2011, \mnras, 412, 1787
+\bibitem[{{Ivezi{\'c}} {et~al.}(2007){Ivezi{\'c}}, {Smith}, {Miknaitis}, {Lin},
+  {Tucker}, {Lupton}, {Gunn}, {Knapp}, {Strauss}, {Sesar}, {Doi}, {Tanaka},
+  {Fukugita}, {Holtzman}, {Kent}, {Yanny}, {Schlegel}, {Finkbeiner},
+  {Padmanabhan}, {Rockosi}, {Juri{\'c}}, {Bond}, {Lee}, {Stoughton}, {Jester},
+  {Harris}, {Harding}, {Morrison}, {Brinkmann}, {Schneider}, \&
+  {York}}]{2007AJ....134..973I}
+{Ivezi{\'c}}, {\v Z}., {et~al.} 2007, \aj, 134, 973
 
-\bibitem[{{Del Principe} {et~al.}(2005){Del Principe}, {Piersimoni}, {Bono},
-  {Di Paola}, {Dolci}, \& {Marconi}}]{delprincipe2005}
-{Del Principe}, M., {Piersimoni}, A.~M., {Bono}, G., {Di Paola}, A., {Dolci},
-  M., \& {Marconi}, M. 2005, \aj, 129, 2714
+\bibitem[{{Ivezic} {et~al.}(2008){Ivezic}, {Tyson}, {Allsman}, {Andrew},
+  {Angel}, \& {for the LSST Collaboration}}]{2008arXiv0805.2366I}
+{Ivezic}, Z., {Tyson}, J.~A., {Allsman}, R., {Andrew}, J., {Angel}, R., \& {for
+  the LSST Collaboration}. 2008, ArXiv e-prints
 
-\bibitem[{{Jones} {et~al.}(1996){Jones}, {Carney}, \& {Fulbright}}]{jones1996}
-{Jones}, R.~V., {Carney}, B.~W., \& {Fulbright}, J.~P. 1996, \pasp, 108, 877
-
-\bibitem[{{Longmore} {et~al.}(1985){Longmore}, {Fernley}, {Jameson},
-  {Sherrington}, \& {Frank}}]{longmore1985}
-{Longmore}, A.~J., {Fernley}, J.~A., {Jameson}, R.~F., {Sherrington}, M.~R., \&
-  {Frank}, J. 1985, \mnras, 216, 873
-
-\bibitem[{{McGonegal} {et~al.}(1982){McGonegal}, {McAlary}, {Madore}, \&
-  {McLaren}}]{mcgonegal1982}
-{McGonegal}, R., {McAlary}, C.~W., {Madore}, B.~F., \& {McLaren}, R.~A. 1982,
-  \apjl, 257, L33
-
-\bibitem[{{Nefs} {et~al.}(2012){Nefs}, {Birkby}, {Snellen}, {Hodgkin},
-  {Pinfield}, {Sipocz}, {Kovacs}, {Mislis}, {Saglia}, {Koppenhofer}, {Cruz},
-  {Barrado}, {Martin}, {Goulding}, {Stoev}, {Zendejas}, {del Burgo},
-  {Cappetta}, \& {Pavlenko}}]{nefs2012}
-{Nefs}, S.~V., {et~al.} 2012, ArXiv e-prints, 1206.1200
+\bibitem[{{Kaiser} {et~al.}(2002){Kaiser}, {Aussel}, {Burke}, {Boesgaard},
+  {Chambers}, {Chun}, {Heasley}, {Hodapp}, {Hunt}, {Jedicke}, {Jewitt},
+  {Kudritzki}, {Luppino}, {Maberry}, {Magnier}, {Monet}, {Onaka}, {Pickles},
+  {Rhoads}, {Simon}, {Szalay}, {Szapudi}, {Tholen}, {Tonry}, {Waterson}, \&
+  {Wick}}]{2002SPIE.4836..154K}
+{Kaiser}, N., {et~al.} 2002, in Presented at the Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference, Vol. 4836, Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series, ed.
+  {J.~A.~Tyson \& S.~Wolff}, 154--164
 
 \bibitem[{{Nikolaev} {et~al.}(2000){Nikolaev}, {Weinberg}, {Skrutskie},
-  {Cutri}, {Wheelock}, {Gizis}, \& {Howard}}]{nikolaev2000}
+  {Cutri}, {Wheelock}, {Gizis}, \& {Howard}}]{2000AJ....120.3340N}
 {Nikolaev}, S., {Weinberg}, M.~D., {Skrutskie}, M.~F., {Cutri}, R.~M.,
   {Wheelock}, S.~L., {Gizis}, J.~E., \& {Howard}, E.~M. 2000, \aj, 120, 3340
 
+\bibitem[{{Oluseyi} {et~al.}(2012){Oluseyi}, {Becker}, {Culliton}, {Furqan},
+  {Hoadley}, {Regencia}, {Wells}, {Ivezic}, {Jones}, {Krughoff}, {Sesar},
+  {Jacoby}, \& {Allison}}]{2012AJ....144....9O}
+{Oluseyi}, H.~M., {et~al.} 2012, \aj, 144, 9
+
 \bibitem[{{Plavchan} {et~al.}(2008{\natexlab{a}}){Plavchan}, {Gee},
-  {Stapelfeldt}, \& {Becker}}]{plavchan2008b}
+  {Stapelfeldt}, \& {Becker}}]{2008ApJ...684L..37P}
 {Plavchan}, P., {Gee}, A.~H., {Stapelfeldt}, K., \& {Becker}, A.
   2008{\natexlab{a}}, \apjl, 684, L37
 
 \bibitem[{{Plavchan} {et~al.}(2008{\natexlab{b}}){Plavchan}, {Jura},
-  {Kirkpatrick}, {Cutri}, \& {Gallagher}}]{plavchan2008a}
+  {Kirkpatrick}, {Cutri}, \& {Gallagher}}]{2008ApJS..175..191P}
 {Plavchan}, P., {Jura}, M., {Kirkpatrick}, J.~D., {Cutri}, R.~M., \&
   {Gallagher}, S.~C. 2008{\natexlab{b}}, \apjs, 175, 191
 
-\bibitem[{{Plavchan}(2006)}]{plavchanphd}
-{Plavchan}, Jr., P.~P. 2006, PhD thesis, University of California, Los Angeles
-
-\bibitem[{{Pojmanski}(1997)}]{asas}
-{Pojmanski}, G. 1997, AcA, 47, 467
-
-\bibitem[{{Pojmanski}(2002)}]{pojmanski2002}
----. 2002, AcA, 52, 397
-
-\bibitem[{{Rucinski}(1997)}]{rucinski1997b}
-{Rucinski}, S.~M. 1997, \aj, 113, 1112
-
 \bibitem[{{Sarajedini} {et~al.}(2009){Sarajedini}, {Dotter}, \&
-  {Kirkpatrick}}]{sarajedini2009}
+  {Kirkpatrick}}]{2009ApJ...698.1872S}
 {Sarajedini}, A., {Dotter}, A., \& {Kirkpatrick}, A. 2009, \apj, 698, 1872
+
+\bibitem[{{Sesar} {et~al.}(2011){Sesar}, {Stuart}, {Ivezi{\'c}}, {Morgan},
+  {Becker}, \& {Wo{\'z}niak}}]{2011AJ....142..190S}
+{Sesar}, B., {Stuart}, J.~S., {Ivezi{\'c}}, {\v Z}., {Morgan}, D.~P., {Becker},
+  A.~C., \& {Wo{\'z}niak}, P. 2011, \aj, 142, 190
 
 \bibitem[{{Skrutskie} {et~al.}(2006){Skrutskie}, {Cutri}, {Stiening},
   {Weinberg}, {Schneider}, {Carpenter}, {Beichman}, {Capps}, {Chester},
   {Elias}, {Huchra}, {Liebert}, {Lonsdale}, {Monet}, {Price}, {Seitzer},
   {Jarrett}, {Kirkpatrick}, {Gizis}, {Howard}, {Evans}, {Fowler}, {Fullmer},
   {Hurt}, {Light}, {Kopan}, {Marsh}, {McCallon}, {Tam}, {Van Dyk}, \&
-  {Wheelock}}]{2mass}
+  {Wheelock}}]{2006AJ....131.1163S}
 {Skrutskie}, M.~F., {et~al.} 2006, \aj, 131, 1163
 
-\bibitem[{{Sollima} {et~al.}(2008){Sollima}, {Cacciari}, {Arkharov},
-  {Larionov}, {Gorshanov}, {Efimova}, \& {Piersimoni}}]{sollima2008}
-{Sollima}, A., {Cacciari}, C., {Arkharov}, A.~A.~H., {Larionov}, V.~M.,
-  {Gorshanov}, D.~L., {Efimova}, N.~V., \& {Piersimoni}, A. 2008, \mnras, 384,
-  1583
-
-\bibitem[{{Wisniewski} \& {Johnson}(1968)}]{wisniewski1968}
-{Wisniewski}, W.~Z., \& {Johnson}, H.~L. 1968, Communications of the Lunar and
-  Planetary Laboratory, 7, 57
-
-\bibitem[{{York} {et~al.}(2000){York}, {Adelman}, {Anderson}, {Anderson},
-  {Annis}, {Bahcall}, {Bakken}, {Barkhouser}, {Bastian}, {Berman}, {Boroski},
-  {Bracker}, {Briegel}, {Briggs}, {Brinkmann}, {Brunner}, {Burles}, {Carey},
-  {Carr}, {Castander}, {Chen}, {Colestock}, {Connolly}, {Crocker}, {Csabai},
-  {Czarapata}, {Davis}, {Doi}, {Dombeck}, {Eisenstein}, {Ellman}, {Elms},
-  {Evans}, {Fan}, {Federwitz}, {Fiscelli}, {Friedman}, {Frieman}, {Fukugita},
-  {Gillespie}, {Gunn}, {Gurbani}, {de Haas}, {Haldeman}, {Harris}, {Hayes},
-  {Heckman}, {Hennessy}, {Hindsley}, {Holm}, {Holmgren}, {Huang}, {Hull},
-  {Husby}, {Ichikawa}, {Ichikawa}, {Ivezi{\'c}}, {Kent}, {Kim}, {Kinney},
-  {Klaene}, {Kleinman}, {Kleinman}, {Knapp}, {Korienek}, {Kron}, {Kunszt},
-  {Lamb}, {Lee}, {Leger}, {Limmongkol}, {Lindenmeyer}, {Long}, {Loomis},
-  {Loveday}, {Lucinio}, {Lupton}, {MacKinnon}, {Mannery}, {Mantsch}, {Margon},
-  {McGehee}, {McKay}, {Meiksin}, {Merelli}, {Monet}, {Munn}, {Narayanan},
-  {Nash}, {Neilsen}, {Neswold}, {Newberg}, {Nichol}, {Nicinski}, {Nonino},
-  {Okada}, {Okamura}, {Ostriker}, {Owen}, {Pauls}, {Peoples}, {Peterson},
-  {Petravick}, {Pier}, {Pope}, {Pordes}, {Prosapio}, {Rechenmacher}, {Quinn},
-  {Richards}, {Richmond}, {Rivetta}, {Rockosi}, {Ruthmansdorfer}, {Sandford},
-  {Schlegel}, {Schneider}, {Sekiguchi}, {Sergey}, {Shimasaku}, {Siegmund},
-  {Smee}, {Smith}, {Snedden}, {Stone}, {Stoughton}, {Strauss}, {Stubbs},
-  {SubbaRao}, {Szalay}, {Szapudi}, {Szokoly}, {Thakar}, {Tremonti}, {Tucker},
-  {Uomoto}, {Vanden Berk}, {Vogeley}, {Waddell}, {Wang}, {Watanabe},
-  {Weinberg}, {Yanny}, \& {Yasuda}}]{york2000}
-{York}, D.~G., {et~al.} 2000, \aj, 120, 1579
+\bibitem[{{Wright} {et~al.}(2010){Wright}, {Eisenhardt}, {Mainzer}, {Ressler},
+  {Cutri}, {Jarrett}, {Kirkpatrick}, {Padgett}, {McMillan}, {Skrutskie},
+  {Stanford}, {Cohen}, {Walker}, {Mather}, {Leisawitz}, {Gautier}, {McLean},
+  {Benford}, {Lonsdale}, {Blain}, {Mendez}, {Irace}, {Duval}, {Liu}, {Royer},
+  {Heinrichsen}, {Howard}, {Shannon}, {Kendall}, {Walsh}, {Larsen}, {Cardon},
+  {Schick}, {Schwalm}, {Abid}, {Fabinsky}, {Naes}, \&
+  {Tsai}}]{2010AJ....140.1868W}
+{Wright}, E.~L., {et~al.} 2010, \aj, 140, 1868
 
 \end{thebibliography}

@@ -1,49 +1,81 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: per.aux
+I couldn't open database file /Users/james/research/references.bib
+---line 97 of file per.aux
+ : \bibdata{refs,/Users/james/research/references
+ :                                               }
+I'm skipping whatever remains of this command
 The style file: apj.bst
-Database file #1: perNotes.bib
-Database file #2: /Users/james/research/references.bib
+Database file #1: refs.bib
+I was expecting a `,' or a `}'---line 9420 of file refs.bib
+ :   journal = Philos. 
+ :                     Mag,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 9863 of file refs.bib
+ :    volume = Pan-STARRS 
+ :                        PMS,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 9872 of file refs.bib
+ :    volume = Pan-STARRS 
+ :                        PMS,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "plavchanphd"
+Warning--I didn't find a database entry for "plavchan2008a"
+Warning--I didn't find a database entry for "cutri2006"
+Warning--I didn't find a database entry for "XXX"
+Warning--I didn't find a database entry for "pojmanski2002"
+Warning--I didn't find a database entry for "nefs2012"
 Warning--I didn't find a database entry for "aaas"
-You've used 23 entries,
+Warning--I didn't find a database entry for "asas"
+Warning--I didn't find a database entry for "rucinski1997b"
+Warning--I didn't find a database entry for "deb2011"
+Warning--I didn't find a database entry for "wisniewski1968"
+Warning--I didn't find a database entry for "mcgonegal1982"
+Warning--I didn't find a database entry for "longmore1985"
+Warning--I didn't find a database entry for "jones1996"
+Warning--I didn't find a database entry for "bailey1902"
+Warning--I didn't find a database entry for "sollima2008"
+Warning--I didn't find a database entry for "delprincipe2005"
+Warning--I didn't find a database entry for "catelan2004"
+You've used 16 entries,
             2964 wiz_defined-function locations,
-            784 strings with 12352 characters,
-and the built_in function-call counts, 16672 in all, are:
-= -- 1285
-> -- 1709
-< -- 8
-+ -- 655
-- -- 631
-* -- 1698
-:= -- 3200
-add.period$ -- 23
-call.type$ -- 23
-change.case$ -- 375
-chr.to.int$ -- 22
-cite$ -- 23
-duplicate$ -- 416
-empty$ -- 609
-format.name$ -- 692
-if$ -- 3020
+            782 strings with 14648 characters,
+and the built_in function-call counts, 17792 in all, are:
+= -- 1295
+> -- 2165
+< -- 2
++ -- 845
+- -- 828
+* -- 1993
+:= -- 3406
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 454
+chr.to.int$ -- 15
+cite$ -- 16
+duplicate$ -- 305
+empty$ -- 442
+format.name$ -- 874
+if$ -- 3113
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 21
-newline$ -- 73
-num.names$ -- 92
-pop$ -- 377
+missing$ -- 15
+newline$ -- 52
+num.names$ -- 65
+pop$ -- 460
 preamble$ -- 1
-purify$ -- 375
+purify$ -- 454
 quote$ -- 0
-skip$ -- 350
+skip$ -- 248
 stack$ -- 0
-substring$ -- 465
-swap$ -- 2
-text.length$ -- 0
+substring$ -- 332
+swap$ -- 12
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 207
+type$ -- 144
 warning$ -- 0
-while$ -- 85
+while$ -- 58
 width$ -- 0
-write$ -- 232
-(There was 1 warning)
+write$ -- 162
+(There were 4 error messages)
