@@ -141,20 +141,32 @@ the same astrophysical object.  However, the distributions of
 astrometric centroids for a significant number of these objects
 appeared multi--model, indicating an insufficient job of
 catalog--level deblending.  For this reason, we performed a wholesale
-reanalysis of all of the source positions, clustering them into a
-final set of 113,030 ``objects'' using the {\tt OPTICS} algorithm
-\cite{optics}.  These objects have on average smaller RMS centroid
-uncertainties and longer lightcurves, indicating that {\tt OPTICS}
-both performed a better job of deblending and at associating epochs
-together.  For objects brighter than $J = 16$, the median number of
-$J$--band measurements increased from 432 to 671, while the median RMS
-of the astrometric centroids modestly decreased to 0.10'' from 0.11''
-(when including objects fainter than $J=16$, the median astrometric
-RMS decreased to 0.28'' from 0.41'').  Bulk lightcurve metrics were
-calculated using only data with photometric quality flags ``A''
-through ``C'', effectively limiting us to S/N $>$ 5, and corrected
-photometric uncertainties smaller than 0.22 magnitudes.
+reanalysis of all of the source positions, spatially clustering them
+into a final set of 113,030 ``objects'' using the {\tt OPTICS}
+algorithm \cite{optics}.
+%
+For objects brighter than $J=16$, the median number of $J$--band
+measurements per object increased from 432 to 671, while the median
+RMS of the astrometric centroids modestly decreased to 0.11'' from
+0.10'' (when including objects fainter than $J=16$, the median
+astrometric RMS decreased from 0.41''to 0.28'').  This indicates that
+{\tt OPTICS} both performed a better job of deblending photometry of
+nearby objects, and at associating multiple epoch observations of the
+same object together.
+%
 
+Following this, bulk lightcurve metrics were calculated using only
+those data with photometric quality flags ``A'' through ``C'',
+effectively limiting us to S/N $>$ 5, and corrected photometric
+uncertainties smaller than 0.22 magnitudes.  We calculated
+per--passband metrics including the error--weighted means and standard
+deviations, skew, kurtosis, a reduced $\chi^2$ metric using all the
+data, and then a ``robust'' reduced $\chi^2_r$ metric excluding the
+brightest and faintest 10\% of points.  The $\chi^2_r$ metric will
+thus be less sensitive to single photometric outliers, but will also
+be less sensitive to periodic variables whose variability signal lasts
+a small fraction of its duty cycle, such as detached eclipsing binary
+stars.
 
 
 
@@ -165,35 +177,34 @@ photometric uncertainties smaller than 0.22 magnitudes.
 \section{Periodic Variables}
 
 To search for periodically variable objects, we used the {\tt
-  Supersmoother} algorithm that has been used in many previous
-astronomical datamining applications
-\citep[e.g.][]{2011ApJ...731...17B}.  Data from each of the three
-passbands were smoothed independently, resulting in 3 period estimates
-per object.
+  Supersmoother} algorithm that has been used in previous astronomical
+datamining applications \citep[e.g.][]{2011ApJ...731...17B}.  Data
+from each of the three passbands were smoothed independently,
+resulting in 3 period estimates per object.
 
 %each light curve was processed with Supersmoother
 %objects with periods in at least 2 bands that were not obviously aliases were grabbed (about 2000 objects)
 %each light curve was examined by eye, about 250 were bona fide good periodic objects
 
 \subsection{Selection Criteria}
-To select objects likely to be periodic, we examined the periods
-returned in each of the three passbands.  We applied two sets of
-criteria based upon previous multi--band periodic variability
+To select systems exhibiting periodic variability, we examined the
+periods returned in each of the three passbands.  We applied two sets
+of criteria informed by previous multi--band periodic variability
 studies.  Because {\tt Supersmoother} will report periods even when
 none are supported by the data, all stars in each candidate list were
-visually inspected to verify the periodicity of the system, and to
-classify the sources.
+folded at their suggested periods, and visually inspected to verify
+the periodicity of the system, and to classify the sources.
 
-The first selection criterion looks purely at the standard deviation
-of the period estimates, similar to the analysis of
+The first selection criterion looks at the fractional uncertainty of
+the period estimates, similar to the analysis of
 \cite{2011ApJ...731...17B}.  Briefly, this requires that the standard
 deviation of the period estimates, or of the period estimates
 corrected for aliasing, are smaller than $10^{-4}$ of their average
-value. This was done using all 3 periods, and as a looser cut, using
-only two of the three periods, since the $K_S$--band data typically
-have both lower signal--to--noise measurements and smaller lightcurve
-amplitudes.  This cut yielded 2073 candidates, each of which were
-folded at the reported periods and validated through visual
+value. This criteria was applied using all 3 periods, and as a looser
+cut using only two of the three periods, since the $K_S$--band data
+typically have both lower signal--to--noise measurements and smaller
+lightcurve amplitudes.  This cut yielded 2073 candidates, each of
+which were folded at the reported periods and validated through visual
 inspection.  In total 157 systems from this list were verified as
 periodic systems.
 
@@ -202,11 +213,11 @@ of a cut for longer period systems.  Because such systems will have
 gone through fewer oscillations in a given time window, their period
 is likely to be more poorly constrained.  For this reason, we apply a
 second criterion, which requires that the standard deviation of the
-periods divided by their average {\it squared} is less than $10^{-5}
-{\rm day}^{-1}$.  This set of cuts yielded 696 systems, of which 570
-were new candidates (meaning it recovered 126/157 of the previous
-objects).  XXX of these pass the human validation, and are included in
-this publication.
+periods divided by their squared average is less than $10^{-5} {\rm
+  day}^{-1}$.  This set of cuts yielded 696 systems, of which 570 were
+new candidates (meaning it recovered 126/157 of the previous objects).
+{\bf XXX} of these pass the human validation, and are included in this
+publication.
 
 \begin{center}
 {\color{red} \line(1,0){250}}
