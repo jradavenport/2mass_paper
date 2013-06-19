@@ -1,244 +1,302 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2012.2.16)  18 JUN 2013 09:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 JUN 2013 22:08
 entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**per
+**per.tex
 (./per.tex
-LaTeX2e <2005/12/01>
-Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
-erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
- french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
-us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
-tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
-turkish, ukenglish, ukrainian, loaded.
-(/astro/users/acbecker/latex/tex/emulateapj.cls
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/Users/james/Library/texmf/tex/latex/emulateapj.cls
 Document Class: emulateapj 
 \bibbaselineskip=\skip41
-(/astro/users/acbecker/latex/revtex4/revtex4.cls
-Document Class: revtex4 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for do
-cumentation)
- Copyright (c) 2001 The American Physical Society.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/revtex4-1.cls
+Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
+ex4/ for documentation)
+ Copyright (c) 2009 The American Physical Society.
  mailto:revtex@aps.org
  Licensed under the LPPL:
 http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
- Arthur Ogawa <ogawa@teleport.com>
- Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
-ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
-Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 308.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
+\eqncolsep=\skip42
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 433.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
 \intertabularlinepenalty=\count79
 \@tbpen=\count80
 \@arstrutbox@hline=\box26
-Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
-ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
-\c@linecount=\count81
-\output=\toks14
-\@protection@box=\box27
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
+Class revtex4-1 Info: Making \typeout \long on input line 2046.
+ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
+\c@affil=\count81
+\c@collab=\count82
+\absbox=\box27
+ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count83
+\output@latex=\toks14
+\box@size@1=\box28
+\box@size@2=\box29
+\@protection@box=\box30
 \@topmark@saved=\toks15
-\footins@saved=\box28
-\pagesofar=\box29
-\footbox=\box30
-\pagegrid@col=\count82
-Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
-ly upper/lower case changing (DPC)]. on input line 3682.
-(/usr/share/texmf/tex/latex/ltxmisc/url.sty
+\footins@saved=\box31
+\footins@recovered=\box32
+\column@recovered=\box33
+\pagesofar=\box34
+\footsofar=\box35
+\pagegrid@col=\count84
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5578.
+\c@part=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\abovecaptionskip=\skip43
+\belowcaptionskip=\skip44
+\c@figure=\count91
+\fbox@1=\box36
+\c@table=\count92
+\fbox@2=\box37
+\c@video=\count93
+\fbox@4=\box38
+\@bibdataout=\write3
+\widetext@top=\box39
+\widetext@bot=\box40
+
+Class revtex4-1 Warning: No Society specified, using default society aps.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/aps4-1.rtx
+File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
+mentation)
+Class revtex4-1 Info: RevTeX society APS selected on input line 31.
+)
+
+Class revtex4-1 Warning: No journal specified, using default pra.
+
+Class revtex4-1 Info: APS journal PRA selected on input line 7545.
+
+Class revtex4-1 Warning: No type size specified, using default 10.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+documentation)
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-\c@affil=\count83
-\absbox=\box31
-\c@part=\count84
-\c@section=\count85
-\c@subsection=\count86
-\c@subsubsection=\count87
-\c@paragraph=\count88
-\c@subparagraph=\count89
-\abovecaptionskip=\skip42
-\belowcaptionskip=\skip43
-\c@figure=\count90
-\c@table=\count91
-
-(/astro/users/acbecker/latex/aastex52/natbib.sty
-Package: natbib 2003/06/06 7.1 (PWD)
-\bibhang=\skip44
-\bibsep=\skip45
-LaTeX Info: Redefining \cite on input line 518.
-\c@NAT@ctr=\count92
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
 )
-\widetext@top=\box32
-\widetext@bot=\box33
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-(/astro/users/acbecker/latex/revtex4/revsymb.sty
-Package: revsymb 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documenta
-tion)
-LaTeX Info: Redefining \REV@mathfrak on input line 118.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
+or documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-
-Class revtex4 Warning: No Society specified, using generic APS style.
-
-(/astro/users/acbecker/latex/revtex4/aps.rtx
-File: aps.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentatio
-n)
-)
-(/astro/users/acbecker/latex/revtex4/10pt.rtx
-File: 10pt.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentati
-on)
-)
-(/usr/share/texmf/tex/latex/base/latexsym.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/share/texmf/tex/latex/graphics/graphics.sty
-Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/astro/users/acbecker/latex/tex/graphics.cfg)
-Package graphics Info: Driver file: dvips.def on input line 90.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
 ))
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
 )
-(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2002/01/22 v2.2d
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
 
-(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2001/10/25 v2.2f
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
-LaTeX Info: Redefining \frak on input line 135.
-LaTeX Info: Redefining \Bbb on input line 137.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+LaTeX Info: Redefining \frak on input line 99.
+LaTeX Info: Redefining \Bbb on input line 101.
 ))
-(/usr/share/texmf/tex/latex/tools/longtable.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip46
-\LTright=\skip47
-\LTpre=\skip48
-\LTpost=\skip49
-\LTchunksize=\count93
+\LTleft=\skip47
+\LTright=\skip48
+\LTpre=\skip49
+\LTpost=\skip50
+\LTchunksize=\count96
 \LTcapwidth=\dimen104
-\LT@head=\box34
-\LT@firsthead=\box35
-\LT@foot=\box36
-\LT@lastfoot=\box37
-\LT@cols=\count94
-\LT@rows=\count95
-\c@LT@tables=\count96
-\c@LT@chunks=\count97
+\LT@head=\box41
+\LT@firsthead=\box42
+\LT@foot=\box43
+\LT@lastfoot=\box44
+\LT@cols=\count97
+\LT@rows=\count98
+\c@LT@tables=\count99
+\c@LT@chunks=\count100
 \LT@p@ftn=\toks18
 )
-(/astro/users/acbecker/latex/tex/epsf.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
 \epsffilein=\read1
-\epsfxsize=\dimen105
-\epsfysize=\dimen106
-\epsftsize=\dimen107
-\epsfrsize=\dimen108
-\epsftmp=\dimen109
-\pspoints=\dimen110
+\epsfframemargin=\dimen105
+\epsfframethickness=\dimen106
+\epsfrsize=\dimen107
+\epsftmp=\dimen108
+\epsftsize=\dimen109
+\epsfxsize=\dimen110
+\epsfysize=\dimen111
+\pspoints=\dimen112
 )
-\c@front@matter@foot@note=\count98
+\c@front@matter@foot@note=\count101
 \alt@affil@toks=\toks19
 \alt@affil@toks@count=\toks20
-\keys@width=\skip50
-\c@lastfootnote=\count99
-\c@remember@figure@num=\count100
-\c@remember@table@num=\count101
-\bibindent=\dimen111
-\plot@width=\skip51
-\c@table@save=\count102
-\table@note@skip=\skip52
-\deluxe@table@width=\skip53
-\@d@t@a=\skip54
-\c@deluxe@table@num=\count103
-\abovedeluxetableskip=\skip55
-\belowdeluxetableskip=\skip56
-\lastrowheight=\dimen112
+\keys@width=\skip51
+\c@lastfootnote=\count102
+\c@remember@figure@num=\count103
+\c@remember@table@num=\count104
+\bibindent=\dimen113
+\plot@width=\skip52
+\c@table@save=\count105
+\table@note@skip=\skip53
+\deluxe@table@width=\skip54
+\@d@t@a=\skip55
+\c@deluxe@table@num=\count106
+\abovedeluxetableskip=\skip56
+\belowdeluxetableskip=\skip57
+\lastrowheight=\dimen114
 \DT@p@ftn=\toks21
-\pt@column=\count104
-\pt@ncol=\count105
-)
-(/usr/share/texmf/tex/latex/graphics/color.sty
+\pt@column=\count107
+\pt@ncol=\count108
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/astro/users/acbecker/latex/tex/color.cfg)
-Package color Info: Driver file: dvips.def on input line 130.
-
-(/usr/share/texmf/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
-))
-(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip57
+\@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks22
-\ex@=\dimen113
-))
-(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen114
+\ex@=\dimen115
 )
-(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+LaTeX Info: Redefining \text on input line 53.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen116
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count106
+\inf@bad=\count109
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count107
-\leftroot@=\count108
+\uproot@=\count110
+\leftroot@=\count111
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count109
-\DOTSCASE@=\count110
+\classnum@=\count112
+\DOTSCASE@=\count113
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box38
-\strutbox@=\box39
-\big@size=\dimen115
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen117
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count111
-\c@MaxMatrixCols=\count112
+\macc@depth=\count114
+\c@MaxMatrixCols=\count115
 \dotsspace@=\muskip11
-\c@parentequation=\count113
-\dspbrk@lvl=\count114
+\c@parentequation=\count116
+\dspbrk@lvl=\count117
 \tag@help=\toks23
-\row@=\count115
-\column@=\count116
-\maxfields@=\count117
+\row@=\count118
+\column@=\count119
+\maxfields@=\count120
 \andhelp@=\toks24
-\eqnshift@=\dimen116
-\alignsep@=\dimen117
-\tagshift@=\dimen118
-\tagwidth@=\dimen119
-\totwidth@=\dimen120
-\lineht@=\dimen121
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
 \@envbody=\toks25
-\multlinegap=\skip58
-\multlinetaggap=\skip59
+\multlinegap=\skip59
+\multlinetaggap=\skip60
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-) (./per.aux
+)
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 16.
+Class revtex4-1 Info: Patching longtable package on input line 16.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 16.
+
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 16.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 16.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 16.
+ (./per.aux
 
 LaTeX Warning: Label `bin1' multiply defined.
 
@@ -260,39 +318,165 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
-Class revtex4 Info: Patching LaTeX tabular. on input line 16.
-Class revtex4 Info: Patching unrecognized longtable package. (Proceeding with f
-ingers crossed) on input line 16.
-Class revtex4 Info: cite was not loaded (OK!) on input line 16.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 16.
+ (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count121
+\scratchdimen=\dimen124
+\scratchbox=\box47
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen125
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks28
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\openout3 = `perNotes.bib'.
+
 LaTeX Font Info:    Try loading font information for U+lasy on input line 44.
- (/usr/share/texmf/tex/latex/base/ulasy.fd
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 44.
 
-(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
-(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 
-Class revtex4 Warning: Assuming \noaffiliation for James R. A. Davenport\textsu
-perscript {1,2}, Andrew C. Becker\textsuperscript {2}, Peter Plavchan\textsuper
-script {3}, Roc Cutri\textsuperscript {3}.
+Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
-[1]
+
+Package natbib Warning: Citation `2006AJ....131.1163S' on page 1 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `2010AJ....140.1868W' on page 1 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `2011ApJS..193...29A' on page 1 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `2007AJ....134..973I' on page 1 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `2011AJ....142..190S' on page 1 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `2002SPIE.4836..154K' on page 1 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `2008arXiv0805.2366I' on page 1 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `2012AJ....144....9O' on page 1 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `2006AJ....131.1163S' on page 1 undefined on i
+nput line 70.
+
+
+Package natbib Warning: Citation `2000AJ....120.3340N' on page 1 undefined on i
+nput line 70.
+
+
+Package natbib Warning: Citation `Cutri-2massExtended' on page 1 undefined on i
+nput line 70.
+
+
+Package natbib Warning: Citation `2008ApJS..175..191P' on page 1 undefined on i
+nput line 73.
+
+
+Package natbib Warning: Citation `2008ApJ...684L..37P' on page 1 undefined on i
+nput line 74.
+
+
+Package natbib Warning: Citation `2009ApJ...698.1872S' on page 1 undefined on i
+nput line 75.
+
+
+Package natbib Warning: Citation `2008MNRAS.386..416B' on page 1 undefined on i
+nput line 76.
+
+
+Package natbib Warning: Citation `2012ApJ...748...58D' on page 1 undefined on i
+nput line 77.
+
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
- (/usr/share/texmf/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
-File: new_plots/radec_psc.eps Graphic file (type eps)
- <new_plots/radec_psc.eps>
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<new_plots/radec_psc.pdf, id=21, 794.97pt x 361.35pt>
+File: new_plots/radec_psc.pdf Graphic file (type pdf)
+
+<use new_plots/radec_psc.pdf>
+Package pdftex.def Info: new_plots/radec_psc.pdf used on input line 100.
+(pdftex.def)             Requested size: 505.89pt x 229.95645pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 101--101
 $[]$
  []
@@ -303,18 +487,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--101
  []
 
 
-Package natbib Warning: Citation `plavchanphd' on page 2 undefined on input lin
-e 131.
-
-
-Package natbib Warning: Citation `plavchan2008a' on page 2 undefined on input l
-ine 131.
-
-
 Overfull \hbox (29.10495pt too wide) in paragraph at lines 133--133
 [][]| [] []\OT1/cmr/m/n/8 http://www.ipac.caltech.edu/2mass/releases/allsky/doc
 /explsup.html| 
  []
+
+
+Package natbib Warning: Citation `2011ApJ...731...17B' on page 2 undefined on i
+nput line 181.
+
+
+Package natbib Warning: Citation `2011ApJ...731...17B' on page 2 undefined on i
+nput line 200.
+
+
+Package natbib Warning: Citation `2012AJ....144....9O' on page 2 undefined on i
+nput line 211.
 
 [2]
 Overfull \hbox (4.73347pt too wide) in paragraph at lines 223--224
@@ -322,27 +510,26 @@ Overfull \hbox (4.73347pt too wide) in paragraph at lines 223--224
  []
 
 
-Package natbib Warning: Citation `pojmanski2002' on page 3 undefined on input l
-ine 231.
-
-
-Package natbib Warning: Citation `nefs2012' on page 3 undefined on input line 2
-31.
-
-
 Package natbib Warning: Citation `aaas' on page 3 undefined on input line 236.
-
-
-Package natbib Warning: Citation `asas' on page 3 undefined on input line 238.
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 253.
 
-File: new_plots/four_a42b1.eps Graphic file (type eps)
-<new_plots/four_a42b1.eps>
-File: new_plots/four_a2a4.eps Graphic file (type eps)
- <new_plots/four_a2a4.eps>
+<new_plots/four_a42b1.pdf, id=26, 505.89pt x 361.35pt>
+File: new_plots/four_a42b1.pdf Graphic file (type pdf)
+
+<use new_plots/four_a42b1.pdf>
+Package pdftex.def Info: new_plots/four_a42b1.pdf used on input line 255.
+(pdftex.def)             Requested size: 252.94499pt x 180.67456pt.
+
+<new_plots/four_a2a4.pdf, id=27, 505.89pt x 361.35pt>
+File: new_plots/four_a2a4.pdf Graphic file (type pdf)
+
+<use new_plots/four_a2a4.pdf>
+Package pdftex.def Info: new_plots/four_a2a4.pdf used on input line 256.
+(pdftex.def)             Requested size: 252.94499pt x 180.67456pt.
+
 Overfull \hbox (7.67847pt too wide) in paragraph at lines 255--257
  [][] 
  []
@@ -366,8 +553,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--257
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 262.
 
-File: new_plots/four_a2a4_jrad.eps Graphic file (type eps)
-<new_plots/four_a2a4_jrad.eps>
+<new_plots/four_a2a4_jrad.pdf, id=28, 505.89pt x 361.35pt>
+File: new_plots/four_a2a4_jrad.pdf Graphic file (type pdf)
+
+<use new_plots/four_a2a4_jrad.pdf>
+Package pdftex.def Info: new_plots/four_a2a4_jrad.pdf used on input line 264.
+(pdftex.def)             Requested size: 252.94499pt x 180.67456pt.
+
 Overfull \hbox (7.67847pt too wide) in paragraph at lines 264--265
  [][] 
  []
@@ -382,26 +574,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--265
 
  []
 
+[3 <./new_plots/radec_psc.pdf>]
 
-Package natbib Warning: Citation `rucinski1997b' on page 3 undefined on input l
-ine 281.
-
-[3]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 284.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 286.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 284.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 286.
 
 
-Class revtex4 Warning: Deferred float stuck during \clearpage processing.
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 297.
 
-File: new_plots/bb_perhist.eps Graphic file (type eps)
-<new_plots/bb_perhist.eps>
+<new_plots/bb_perhist.pdf, id=35, 505.89pt x 361.35pt>
+File: new_plots/bb_perhist.pdf Graphic file (type pdf)
+
+<use new_plots/bb_perhist.pdf>
+Package pdftex.def Info: new_plots/bb_perhist.pdf used on input line 299.
+(pdftex.def)             Requested size: 252.94499pt x 180.67456pt.
+
 Overfull \hbox (7.67847pt too wide) in paragraph at lines 299--300
  [][] 
  []
@@ -416,15 +609,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--300
 
  []
 
-File: new_plots/color_period_bb.eps Graphic file (type eps)
-<new_plots/color_period_bb.eps>
+<new_plots/color_period_bb.pdf, id=36, 505.89pt x 361.35pt>
+File: new_plots/color_period_bb.pdf Graphic file (type pdf)
+
+<use new_plots/color_period_bb.pdf>
+Package pdftex.def Info: new_plots/color_period_bb.pdf used on input line 308.
+(pdftex.def)             Requested size: 252.94499pt x 180.67456pt.
+
 Overfull \hbox (7.67847pt too wide) in paragraph at lines 308--309
  [][] 
  []
-
-
-Package natbib Warning: Citation `deb2011' on page 4 undefined on input line 30
-9.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 309--309
@@ -443,31 +637,72 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 316.
 
-File: new_plots/bb1_6.eps Graphic file (type eps)
-<new_plots/bb1_6.eps>
-File: new_plots/bb1_7.eps Graphic file (type eps)
- <new_plots/bb1_7.eps>
-File: new_plots/bb1_8.eps Graphic file (type eps)
- <new_plots/bb1_8.eps>
-File: new_plots/bb1_10.eps Graphic file (type eps)
+<new_plots/bb1_6.pdf, id=37, 505.89pt x 361.35pt>
+File: new_plots/bb1_6.pdf Graphic file (type pdf)
+ <use new_plots/bb1_6.pdf>
+Package pdftex.def Info: new_plots/bb1_6.pdf used on input line 318.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
 
-<new_plots/bb1_10.eps>
-File: new_plots/bb1_13.eps Graphic file (type eps)
- <new_plots/bb1_13.eps>
-File: new_plots/bb1_15.eps Graphic file (type eps)
- <new_plots/bb1_15.eps>
-File: new_plots/bb1_16.eps Graphic file (type eps)
+<new_plots/bb1_7.pdf, id=38, 505.89pt x 361.35pt>
+File: new_plots/bb1_7.pdf Graphic file (type pdf)
+ <use new_plots/bb1_7.pdf>
+Package pdftex.def Info: new_plots/bb1_7.pdf used on input line 319.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
 
-<new_plots/bb1_16.eps>
-File: new_plots/bb1_17.eps Graphic file (type eps)
- <new_plots/bb1_17.eps>
-File: new_plots/bb1_18.eps Graphic file (type eps)
- <new_plots/bb1_18.eps>
-File: new_plots/bb1_21.eps Graphic file (type eps)
+<new_plots/bb1_8.pdf, id=39, 505.89pt x 361.35pt>
+File: new_plots/bb1_8.pdf Graphic file (type pdf)
+ <use new_plots/bb1_8.pdf>
+Package pdftex.def Info: new_plots/bb1_8.pdf used on input line 320.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
 
-<new_plots/bb1_21.eps>
-File: new_plots/bb1_28.eps Graphic file (type eps)
- <new_plots/bb1_28.eps>
+<new_plots/bb1_10.pdf, id=40, 505.89pt x 361.35pt>
+File: new_plots/bb1_10.pdf Graphic file (type pdf)
+ <use new_plots/bb1_10.pdf>
+Package pdftex.def Info: new_plots/bb1_10.pdf used on input line 321.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb1_13.pdf, id=41, 505.89pt x 361.35pt>
+File: new_plots/bb1_13.pdf Graphic file (type pdf)
+ <use new_plots/bb1_13.pdf>
+Package pdftex.def Info: new_plots/bb1_13.pdf used on input line 322.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb1_15.pdf, id=42, 505.89pt x 361.35pt>
+File: new_plots/bb1_15.pdf Graphic file (type pdf)
+ <use new_plots/bb1_15.pdf>
+Package pdftex.def Info: new_plots/bb1_15.pdf used on input line 323.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb1_16.pdf, id=43, 505.89pt x 361.35pt>
+File: new_plots/bb1_16.pdf Graphic file (type pdf)
+ <use new_plots/bb1_16.pdf>
+Package pdftex.def Info: new_plots/bb1_16.pdf used on input line 324.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb1_17.pdf, id=44, 505.89pt x 361.35pt>
+File: new_plots/bb1_17.pdf Graphic file (type pdf)
+ <use new_plots/bb1_17.pdf>
+Package pdftex.def Info: new_plots/bb1_17.pdf used on input line 325.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb1_18.pdf, id=45, 505.89pt x 361.35pt>
+File: new_plots/bb1_18.pdf Graphic file (type pdf)
+ <use new_plots/bb1_18.pdf>
+Package pdftex.def Info: new_plots/bb1_18.pdf used on input line 326.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb1_21.pdf, id=46, 505.89pt x 361.35pt>
+File: new_plots/bb1_21.pdf Graphic file (type pdf)
+ <use new_plots/bb1_21.pdf>
+Package pdftex.def Info: new_plots/bb1_21.pdf used on input line 327.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb1_28.pdf, id=47, 505.89pt x 361.35pt>
+File: new_plots/bb1_28.pdf Graphic file (type pdf)
+ <use new_plots/bb1_28.pdf>
+Package pdftex.def Info: new_plots/bb1_28.pdf used on input line 328.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 329--329
 $[]$
  []
@@ -481,22 +716,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 329--329
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 334.
 
-File: new_plots/bb3_0.eps Graphic file (type eps)
-<new_plots/bb3_0.eps>
-File: new_plots/bb3_2.eps Graphic file (type eps)
- <new_plots/bb3_2.eps>
-File: new_plots/bb3_3.eps Graphic file (type eps)
- <new_plots/bb3_3.eps>
-File: new_plots/bb3_6.eps Graphic file (type eps)
+<new_plots/bb3_0.pdf, id=48, 505.89pt x 361.35pt>
+File: new_plots/bb3_0.pdf Graphic file (type pdf)
+ <use new_plots/bb3_0.pdf>
+Package pdftex.def Info: new_plots/bb3_0.pdf used on input line 336.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
 
-<new_plots/bb3_6.eps>
-File: new_plots/bb3_10.eps Graphic file (type eps)
- <new_plots/bb3_10.eps>
-File: new_plots/bb3_14.eps Graphic file (type eps)
- <new_plots/bb3_14.eps>
-File: new_plots/bb3_16.eps Graphic file (type eps)
+<new_plots/bb3_2.pdf, id=49, 505.89pt x 361.35pt>
+File: new_plots/bb3_2.pdf Graphic file (type pdf)
+ <use new_plots/bb3_2.pdf>
+Package pdftex.def Info: new_plots/bb3_2.pdf used on input line 337.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
 
-<new_plots/bb3_16.eps>
+<new_plots/bb3_3.pdf, id=50, 505.89pt x 361.35pt>
+File: new_plots/bb3_3.pdf Graphic file (type pdf)
+ <use new_plots/bb3_3.pdf>
+Package pdftex.def Info: new_plots/bb3_3.pdf used on input line 338.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb3_6.pdf, id=51, 505.89pt x 361.35pt>
+File: new_plots/bb3_6.pdf Graphic file (type pdf)
+ <use new_plots/bb3_6.pdf>
+Package pdftex.def Info: new_plots/bb3_6.pdf used on input line 339.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb3_10.pdf, id=52, 505.89pt x 361.35pt>
+File: new_plots/bb3_10.pdf Graphic file (type pdf)
+ <use new_plots/bb3_10.pdf>
+Package pdftex.def Info: new_plots/bb3_10.pdf used on input line 340.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb3_14.pdf, id=53, 505.89pt x 361.35pt>
+File: new_plots/bb3_14.pdf Graphic file (type pdf)
+ <use new_plots/bb3_14.pdf>
+Package pdftex.def Info: new_plots/bb3_14.pdf used on input line 341.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/bb3_16.pdf, id=54, 505.89pt x 361.35pt>
+File: new_plots/bb3_16.pdf Graphic file (type pdf)
+ <use new_plots/bb3_16.pdf>
+Package pdftex.def Info: new_plots/bb3_16.pdf used on input line 342.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 343--343
 $[]$
  []
@@ -506,35 +767,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--343
 
  []
 
-
-Package natbib Warning: Citation `wisniewski1968' on page 4 undefined on input 
-line 361.
-
-
-Package natbib Warning: Citation `mcgonegal1982' on page 4 undefined on input l
-ine 361.
-
-
-Package natbib Warning: Citation `longmore1985' on page 4 undefined on input li
-ne 361.
-
-
-Package natbib Warning: Citation `jones1996' on page 4 undefined on input line 
-363.
-
-
-Package natbib Warning: Citation `bailey1902' on page 4 undefined on input line
- 365.
-
-
-Package natbib Warning: Citation `sollima2008' on page 4 undefined on input lin
-e 367.
-
-
-Package natbib Warning: Citation `delprincipe2005' on page 4 undefined on input
- line 369.
-
-[4]
+[4 <./new_plots/four_a42b1.pdf> <./new_plots/four_a2a4.pdf> <./new_plots/four_a
+2a4_jrad.pdf> <./new_plots/bb_perhist.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed) on input line 376.
 
@@ -542,7 +776,7 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 376.
 LaTeX Warning: A float is stuck (cannot be placed) on input line 376.
 
 
-Class revtex4 Warning: Deferred float stuck during \clearpage processing.
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
 Underfull \hbox (badness 1189) in paragraph at lines 379--380
@@ -553,12 +787,12 @@ Underfull \hbox (badness 1189) in paragraph at lines 379--380
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 386.
 
-File: new_plots/color_period_rr.eps Graphic file (type eps)
-<new_plots/color_period_rr.eps>
+<new_plots/color_period_rr.pdf, id=68, 505.89pt x 361.35pt>
+File: new_plots/color_period_rr.pdf Graphic file (type pdf)
 
-Package natbib Warning: Citation `catelan2004' on page 5 undefined on input lin
-e 389.
-
+<use new_plots/color_period_rr.pdf>
+Package pdftex.def Info: new_plots/color_period_rr.pdf used on input line 388.
+(pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 389--389
 $[]$
@@ -573,8 +807,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 389--389
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 394.
 
-File: new_plots/rr_0.eps Graphic file (type eps)
-<new_plots/rr_0.eps>
+<new_plots/rr_0.pdf, id=69, 505.89pt x 361.35pt>
+File: new_plots/rr_0.pdf Graphic file (type pdf)
+ <use new_plots/rr_0.pdf>
+Package pdftex.def Info: new_plots/rr_0.pdf used on input line 396.
+(pdftex.def)             Requested size: 216.81pt x 154.86469pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 397--397
 $[]$
  []
@@ -588,10 +826,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--397
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 402.
 
-File: new_plots/rr_1.eps Graphic file (type eps)
-<new_plots/rr_1.eps>
-File: new_plots/rr_8.eps Graphic file (type eps)
- <new_plots/rr_8.eps>
+<new_plots/rr_1.pdf, id=70, 505.89pt x 361.35pt>
+File: new_plots/rr_1.pdf Graphic file (type pdf)
+ <use new_plots/rr_1.pdf>
+Package pdftex.def Info: new_plots/rr_1.pdf used on input line 404.
+(pdftex.def)             Requested size: 216.81pt x 154.86469pt.
+
+<new_plots/rr_8.pdf, id=71, 505.89pt x 361.35pt>
+File: new_plots/rr_8.pdf Graphic file (type pdf)
+ <use new_plots/rr_8.pdf>
+Package pdftex.def Info: new_plots/rr_8.pdf used on input line 405.
+(pdftex.def)             Requested size: 216.81pt x 154.86469pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 406--406
 $[]$
  []
@@ -605,19 +851,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 406--406
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 410.
 
-File: new_plots/rr_2.eps Graphic file (type eps)
-<new_plots/rr_2.eps>
-File: new_plots/rr_3.eps Graphic file (type eps)
- <new_plots/rr_3.eps>
-File: new_plots/rr_4.eps Graphic file (type eps)
- <new_plots/rr_4.eps>
-File: new_plots/rr_5.eps Graphic file (type eps)
+<new_plots/rr_2.pdf, id=72, 505.89pt x 361.35pt>
+File: new_plots/rr_2.pdf Graphic file (type pdf)
+ <use new_plots/rr_2.pdf>
+Package pdftex.def Info: new_plots/rr_2.pdf used on input line 412.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
 
-<new_plots/rr_5.eps>
-File: new_plots/rr_6.eps Graphic file (type eps)
- <new_plots/rr_6.eps>
-File: new_plots/rr_7.eps Graphic file (type eps)
- <new_plots/rr_7.eps>
+<new_plots/rr_3.pdf, id=73, 505.89pt x 361.35pt>
+File: new_plots/rr_3.pdf Graphic file (type pdf)
+ <use new_plots/rr_3.pdf>
+Package pdftex.def Info: new_plots/rr_3.pdf used on input line 413.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/rr_4.pdf, id=74, 505.89pt x 361.35pt>
+File: new_plots/rr_4.pdf Graphic file (type pdf)
+ <use new_plots/rr_4.pdf>
+Package pdftex.def Info: new_plots/rr_4.pdf used on input line 414.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/rr_5.pdf, id=75, 505.89pt x 361.35pt>
+File: new_plots/rr_5.pdf Graphic file (type pdf)
+ <use new_plots/rr_5.pdf>
+Package pdftex.def Info: new_plots/rr_5.pdf used on input line 415.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/rr_6.pdf, id=76, 505.89pt x 361.35pt>
+File: new_plots/rr_6.pdf Graphic file (type pdf)
+ <use new_plots/rr_6.pdf>
+Package pdftex.def Info: new_plots/rr_6.pdf used on input line 416.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/rr_7.pdf, id=77, 505.89pt x 361.35pt>
+File: new_plots/rr_7.pdf Graphic file (type pdf)
+ <use new_plots/rr_7.pdf>
+Package pdftex.def Info: new_plots/rr_7.pdf used on input line 417.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 418--418
 $[]$
  []
@@ -631,10 +900,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--418
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 422.
 
-File: new_plots/rr_9.eps Graphic file (type eps)
-<new_plots/rr_9.eps>
-File: new_plots/rr_10.eps Graphic file (type eps)
- <new_plots/rr_10.eps>
+<new_plots/rr_9.pdf, id=78, 505.89pt x 361.35pt>
+File: new_plots/rr_9.pdf Graphic file (type pdf)
+ <use new_plots/rr_9.pdf>
+Package pdftex.def Info: new_plots/rr_9.pdf used on input line 424.
+(pdftex.def)             Requested size: 180.67499pt x 129.05482pt.
+
+<new_plots/rr_10.pdf, id=79, 505.89pt x 361.35pt>
+File: new_plots/rr_10.pdf Graphic file (type pdf)
+ <use new_plots/rr_10.pdf>
+Package pdftex.def Info: new_plots/rr_10.pdf used on input line 425.
+(pdftex.def)             Requested size: 180.67499pt x 129.05482pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 426--426
 $[]$
  []
@@ -648,19 +925,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--426
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 443.
 
-File: new_plots/rr_cmd_2.eps Graphic file (type eps)
-<new_plots/rr_cmd_2.eps>
-File: new_plots/rr_cmd_3.eps Graphic file (type eps)
- <new_plots/rr_cmd_3.eps>
-File: new_plots/rr_cmd_4.eps Graphic file (type eps)
- <new_plots/rr_cmd_4.eps>
-File: new_plots/rr_cmd_5.eps Graphic file (type eps)
+<new_plots/rr_cmd_2.pdf, id=80, 505.89pt x 361.35pt>
+File: new_plots/rr_cmd_2.pdf Graphic file (type pdf)
 
-<new_plots/rr_cmd_5.eps>
-File: new_plots/rr_cmd_6.eps Graphic file (type eps)
- <new_plots/rr_cmd_6.eps>
-File: new_plots/rr_cmd_7.eps Graphic file (type eps)
- <new_plots/rr_cmd_7.eps>
+<use new_plots/rr_cmd_2.pdf>
+Package pdftex.def Info: new_plots/rr_cmd_2.pdf used on input line 445.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/rr_cmd_3.pdf, id=81, 505.89pt x 361.35pt>
+File: new_plots/rr_cmd_3.pdf Graphic file (type pdf)
+
+<use new_plots/rr_cmd_3.pdf>
+Package pdftex.def Info: new_plots/rr_cmd_3.pdf used on input line 446.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/rr_cmd_4.pdf, id=82, 505.89pt x 361.35pt>
+File: new_plots/rr_cmd_4.pdf Graphic file (type pdf)
+
+<use new_plots/rr_cmd_4.pdf>
+Package pdftex.def Info: new_plots/rr_cmd_4.pdf used on input line 447.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/rr_cmd_5.pdf, id=83, 505.89pt x 361.35pt>
+File: new_plots/rr_cmd_5.pdf Graphic file (type pdf)
+
+<use new_plots/rr_cmd_5.pdf>
+Package pdftex.def Info: new_plots/rr_cmd_5.pdf used on input line 448.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/rr_cmd_6.pdf, id=84, 505.89pt x 361.35pt>
+File: new_plots/rr_cmd_6.pdf Graphic file (type pdf)
+
+<use new_plots/rr_cmd_6.pdf>
+Package pdftex.def Info: new_plots/rr_cmd_6.pdf used on input line 449.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/rr_cmd_7.pdf, id=85, 505.89pt x 361.35pt>
+File: new_plots/rr_cmd_7.pdf Graphic file (type pdf)
+
+<use new_plots/rr_cmd_7.pdf>
+Package pdftex.def Info: new_plots/rr_cmd_7.pdf used on input line 450.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 451--451
 $[]$
  []
@@ -674,10 +980,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 451--451
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 455.
 
-File: new_plots/rr_cmd_9.eps Graphic file (type eps)
-<new_plots/rr_cmd_9.eps>
-File: new_plots/rr_cmd_10.eps Graphic file (type eps)
- <new_plots/rr_cmd_10.eps>
+<new_plots/rr_cmd_9.pdf, id=86, 505.89pt x 361.35pt>
+File: new_plots/rr_cmd_9.pdf Graphic file (type pdf)
+
+<use new_plots/rr_cmd_9.pdf>
+Package pdftex.def Info: new_plots/rr_cmd_9.pdf used on input line 457.
+(pdftex.def)             Requested size: 180.67499pt x 129.05482pt.
+
+<new_plots/rr_cmd_10.pdf, id=87, 505.89pt x 361.35pt>
+File: new_plots/rr_cmd_10.pdf Graphic file (type pdf)
+
+<use new_plots/rr_cmd_10.pdf>
+Package pdftex.def Info: new_plots/rr_cmd_10.pdf used on input line 458.
+(pdftex.def)             Requested size: 180.67499pt x 129.05482pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 459--459
 $[]$
  []
@@ -687,18 +1003,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--459
 
  []
 
-(./ll_table.tex
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 1 on input line 80.
-
-)
+(./ll_table.tex)
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 471.
 
-File: new_plots/nova.eps Graphic file (type eps)
-<new_plots/nova.eps>
+<new_plots/nova.pdf, id=88, 505.89pt x 361.35pt>
+File: new_plots/nova.pdf Graphic file (type pdf)
+ <use new_plots/nova.pdf>
+Package pdftex.def Info: new_plots/nova.pdf used on input line 473.
+(pdftex.def)             Requested size: 216.81pt x 154.86469pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 474--474
 $[]$
  []
@@ -712,26 +1027,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 474--474
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 479.
 
-File: new_plots/ll_22.eps Graphic file (type eps)
-<new_plots/ll_22.eps>
-File: new_plots/ll_23.eps Graphic file (type eps)
- <new_plots/ll_23.eps>
-File: new_plots/ll_24.eps Graphic file (type eps)
- <new_plots/ll_24.eps>
-File: new_plots/ll_25.eps Graphic file (type eps)
+<new_plots/ll_22.pdf, id=89, 505.89pt x 361.35pt>
+File: new_plots/ll_22.pdf Graphic file (type pdf)
+ <use new_plots/ll_22.pdf>
+Package pdftex.def Info: new_plots/ll_22.pdf used on input line 481.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
 
-<new_plots/ll_25.eps>
-File: new_plots/ll_26.eps Graphic file (type eps)
- <new_plots/ll_26.eps>
-File: new_plots/ll_32.eps Graphic file (type eps)
- <new_plots/ll_32.eps>
-File: new_plots/ll_36.eps Graphic file (type eps)
+<new_plots/ll_23.pdf, id=90, 505.89pt x 361.35pt>
+File: new_plots/ll_23.pdf Graphic file (type pdf)
+ <use new_plots/ll_23.pdf>
+Package pdftex.def Info: new_plots/ll_23.pdf used on input line 482.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
 
-<new_plots/ll_36.eps>
-File: new_plots/ll_40.eps Graphic file (type eps)
- <new_plots/ll_40.eps>
-File: new_plots/ll_41.eps Graphic file (type eps)
- <new_plots/ll_41.eps>
+<new_plots/ll_24.pdf, id=91, 505.89pt x 361.35pt>
+File: new_plots/ll_24.pdf Graphic file (type pdf)
+ <use new_plots/ll_24.pdf>
+Package pdftex.def Info: new_plots/ll_24.pdf used on input line 483.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/ll_25.pdf, id=92, 505.89pt x 361.35pt>
+File: new_plots/ll_25.pdf Graphic file (type pdf)
+ <use new_plots/ll_25.pdf>
+Package pdftex.def Info: new_plots/ll_25.pdf used on input line 484.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/ll_26.pdf, id=93, 505.89pt x 361.35pt>
+File: new_plots/ll_26.pdf Graphic file (type pdf)
+ <use new_plots/ll_26.pdf>
+Package pdftex.def Info: new_plots/ll_26.pdf used on input line 485.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/ll_32.pdf, id=94, 505.89pt x 361.35pt>
+File: new_plots/ll_32.pdf Graphic file (type pdf)
+ <use new_plots/ll_32.pdf>
+Package pdftex.def Info: new_plots/ll_32.pdf used on input line 486.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/ll_36.pdf, id=95, 505.89pt x 361.35pt>
+File: new_plots/ll_36.pdf Graphic file (type pdf)
+ <use new_plots/ll_36.pdf>
+Package pdftex.def Info: new_plots/ll_36.pdf used on input line 487.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/ll_40.pdf, id=96, 505.89pt x 361.35pt>
+File: new_plots/ll_40.pdf Graphic file (type pdf)
+ <use new_plots/ll_40.pdf>
+Package pdftex.def Info: new_plots/ll_40.pdf used on input line 488.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
+<new_plots/ll_41.pdf, id=97, 505.89pt x 361.35pt>
+File: new_plots/ll_41.pdf Graphic file (type pdf)
+ <use new_plots/ll_41.pdf>
+Package pdftex.def Info: new_plots/ll_41.pdf used on input line 489.
+(pdftex.def)             Requested size: 144.54pt x 103.24496pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 490--490
 $[]$
  []
@@ -741,17 +1090,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 490--490
 
  []
 
-(./bb_table.tex
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 2 on input line 182.
-
-) (./rr_table.tex
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 3 on input line 47.
-
-
+(./bb_table.tex) (./rr_table.tex
 Overfull \hbox (1.64937pt too wide) in paragraph at lines 1--47
  []$[]$ 
  []
@@ -760,21 +1099,58 @@ Overfull \hbox (1.64937pt too wide) in paragraph at lines 1--47
 
 Package natbib Warning: There were undefined citations.
 
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-[5] [6] [7] [8] [9] [10] [11] (./per.aux)
+[5 <./new_plots/color_period_bb.pdf>] [6 <./new_plots/bb1_6.pdf> <./new_plots/b
+b1_7.pdf> <./new_plots/bb1_8.pdf> <./new_plots/bb1_10.pdf> <./new_plots/bb1_13.
+pdf> <./new_plots/bb1_15.pdf> <./new_plots/bb1_16.pdf> <./new_plots/bb1_17.pdf>
+ <./new_plots/bb1_18.pdf> <./new_plots/bb1_21.pdf> <./new_plots/bb1_28.pdf>]
+[7 <./new_plots/bb3_0.pdf> <./new_plots/bb3_2.pdf> <./new_plots/bb3_3.pdf> <./n
+ew_plots/bb3_6.pdf> <./new_plots/bb3_10.pdf> <./new_plots/bb3_14.pdf> <./new_pl
+ots/bb3_16.pdf> <./new_plots/color_period_rr.pdf>] [8 <./new_plots/rr_0.pdf> <.
+/new_plots/rr_1.pdf> <./new_plots/rr_8.pdf>] [9 <./new_plots/rr_2.pdf> <./new_p
+lots/rr_3.pdf> <./new_plots/rr_4.pdf> <./new_plots/rr_5.pdf> <./new_plots/rr_6.
+pdf> <./new_plots/rr_7.pdf> <./new_plots/rr_9.pdf> <./new_plots/rr_10.pdf> <./n
+ew_plots/rr_cmd_2.pdf> <./new_plots/rr_cmd_3.pdf> <./new_plots/rr_cmd_4.pdf> <.
+/new_plots/rr_cmd_5.pdf> <./new_plots/rr_cmd_6.pdf> <./new_plots/rr_cmd_7.pdf>]
+[10 <./new_plots/rr_cmd_9.pdf> <./new_plots/rr_cmd_10.pdf> <./new_plots/nova.pd
+f>] [11 <./new_plots/ll_22.pdf> <./new_plots/ll_23.pdf> <./new_plots/ll_24.pdf>
+ <./new_plots/ll_25.pdf> <./new_plots/ll_26.pdf> <./new_plots/ll_32.pdf> <./new
+_plots/ll_36.pdf> <./new_plots/ll_40.pdf> <./new_plots/ll_41.pdf>] (./per.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3778 strings out of 256217
- 45824 string characters out of 1917095
- 144503 words of memory out of 1500000
- 6953 multiletter control sequences out of 10000+200000
- 13369 words of font info for 55 fonts, out of 1200000 for 2000
- 645 hyphenation exceptions out of 8191
- 35i,10n,28p,2125b,450s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 5311 strings out of 493488
+ 72399 string characters out of 3141326
+ 176403 words of memory out of 3000000
+ 8467 multiletter control sequences out of 15000+200000
+ 13042 words of font info for 54 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 39i,10n,29p,1346b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on per.pdf (11 pages, 26485184 bytes).
+PDF statistics:
+ 283 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on per.dvi (11 pages, 47064 bytes).

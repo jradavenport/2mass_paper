@@ -1,79 +1,65 @@
-This is BibTeX, Version 0.99c (Web2C 7.5.6)
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: per.aux
-I couldn't open database file /Users/james/research/references.bib
----line 95 of file per.aux
- : \bibdata{refs,/Users/james/research/references
- :                                               }
-I'm skipping whatever remains of this command
 The style file: apj.bst
-Database file #1: refs.bib
-I was expecting a `,' or a `}'---line 9420 of file refs.bib
- :   journal = Philos. 
- :                     Mag,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 9863 of file refs.bib
- :    volume = Pan-STARRS 
- :                        PMS,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 9872 of file refs.bib
- :    volume = Pan-STARRS 
- :                        PMS,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "plavchanphd"
-Warning--I didn't find a database entry for "plavchan2008a"
-Warning--I didn't find a database entry for "pojmanski2002"
-Warning--I didn't find a database entry for "nefs2012"
+Database file #1: perNotes.bib
+Database file #2: /Users/james/research/references.bib
+Warning--I didn't find a database entry for "2006AJ....131.1163S"
+Warning--I didn't find a database entry for "2010AJ....140.1868W"
+Warning--I didn't find a database entry for "2011ApJS..193...29A"
+Warning--I didn't find a database entry for "2007AJ....134..973I"
+Warning--I didn't find a database entry for "2011AJ....142..190S"
+Warning--I didn't find a database entry for "2002SPIE.4836..154K"
+Warning--I didn't find a database entry for "2008arXiv0805.2366I"
+Warning--I didn't find a database entry for "2012AJ....144....9O"
+Warning--I didn't find a database entry for "2000AJ....120.3340N"
+Warning--I didn't find a database entry for "Cutri-2massExtended"
+Warning--I didn't find a database entry for "2008ApJS..175..191P"
+Warning--I didn't find a database entry for "2008ApJ...684L..37P"
+Warning--I didn't find a database entry for "2009ApJ...698.1872S"
+Warning--I didn't find a database entry for "2008MNRAS.386..416B"
+Warning--I didn't find a database entry for "2012ApJ...748...58D"
+Warning--I didn't find a database entry for "2011ApJ...731...17B"
 Warning--I didn't find a database entry for "aaas"
-Warning--I didn't find a database entry for "asas"
-Warning--I didn't find a database entry for "rucinski1997b"
-Warning--I didn't find a database entry for "deb2011"
-Warning--I didn't find a database entry for "wisniewski1968"
-Warning--I didn't find a database entry for "mcgonegal1982"
-Warning--I didn't find a database entry for "longmore1985"
-Warning--I didn't find a database entry for "jones1996"
-Warning--I didn't find a database entry for "bailey1902"
-Warning--I didn't find a database entry for "sollima2008"
-Warning--I didn't find a database entry for "delprincipe2005"
-Warning--I didn't find a database entry for "catelan2004"
-You've used 17 entries,
+You've used 16 entries,
             2964 wiz_defined-function locations,
-            787 strings with 14987 characters,
-and the built_in function-call counts, 18465 in all, are:
-= -- 1351
-> -- 2212
-< -- 2
-+ -- 861
-- -- 843
-* -- 2052
-:= -- 3519
-add.period$ -- 17
-call.type$ -- 17
-change.case$ -- 462
+            784 strings with 8267 characters,
+and the built_in function-call counts, 7695 in all, are:
+= -- 645
+> -- 542
+< -- 7
++ -- 195
+- -- 179
+* -- 660
+:= -- 1460
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 129
 chr.to.int$ -- 16
-cite$ -- 17
-duplicate$ -- 333
-empty$ -- 490
-format.name$ -- 893
-if$ -- 3255
-int.to.chr$ -- 2
+cite$ -- 16
+duplicate$ -- 299
+empty$ -- 444
+format.name$ -- 222
+if$ -- 1488
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 15
-newline$ -- 55
-num.names$ -- 70
-pop$ -- 472
+missing$ -- 14
+newline$ -- 52
+num.names$ -- 65
+pop$ -- 133
 preamble$ -- 1
-purify$ -- 462
+purify$ -- 129
 quote$ -- 0
-skip$ -- 275
+skip$ -- 259
 stack$ -- 0
-substring$ -- 363
-swap$ -- 18
-text.length$ -- 1
+substring$ -- 329
+swap$ -- 6
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 153
+type$ -- 144
 warning$ -- 0
-while$ -- 64
+while$ -- 63
 width$ -- 0
-write$ -- 173
-(There were 4 error messages)
+write$ -- 164
+(There were 17 warnings)
