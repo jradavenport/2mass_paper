@@ -54,6 +54,9 @@ periods and multi--band amplitudes and skews.  This will prove to be a
 benchmark reference sample until large area, near--IR time--domain
 surveys become a reality.
 
+This includes an initial investigation of the relative importance of
+near--IR lightcurve attributes for classification purposes.
+
 %data comes from 2mass-calpswdb, have over 100 million photometric measurements, totaling light curves for 113,030 point objects. we have run supersmoother period folding, ala MACHO, on every light curve. By hand verification used to check. many are found periodic, XX binaries, YY radial pulsators. These include the best sampled light curves for an RR Lyr and Cepheid variables in the NIR, and provide an important benchmark for modeling of these stars. An additional ZZ quasi-periodic variable stars are found. we have also characterized the variability properties as functions of color, finding nearly all objects have ``grey'' variability, where the amplitude is independent of wavelength chosen.
 \end{abstract}
 
@@ -218,6 +221,85 @@ periods divided by their squared average is less than $10^{-5} {\rm
 new candidates (meaning it recovered 126/157 of the previous objects).
 {\bf XXX} of these pass the human validation, and are included in this
 publication.
+
+\subsection{Visual Classification}
+
+Each of the {\bf XXX} periodic systems was visually classified based
+upon its lightcurve shape, and best--fit period.  These classifications
+were roughly based on four categories:
+
+\begin{itemize}
+\item Eclipsing binary stars: These lightcurves typically have two
+  distinct minima corresponding to the primary and secondary eclipses
+  of an edge--on binary system.  These are further subdivided into
+  detached and contact W UMa--type systems.  The former have
+  relatively flat out--of--eclipse lightcurve and sharp eclipse
+  features, while the latter have more sinusoidal shapes and
+  continuous variability.  Contact systems may be confused with
+  pulsating systems at half the period if the eclipse depths are
+  similar.
+
+\item Pulsating variable stars: These lightcurves have a single
+  minimum in their variability cycle, with an overall sinusoidal
+  lightcurve shape.  Subclasses include Cepheids, RR Lyrae types RRab
+  and RRc, and $\delta$ Scu objects.  Subclassifications are made
+  based upon period and lightcurve shape.
+
+\item Long period variables: These lightcurves typically have
+  timescales of hundreds of days.  Lightcurve features do not repeat
+  exactly, making period estimation difficult.
+
+\item Other: These lightcurve do not fit into any of the categories
+  defined above.  Two systems fall into this class, which are explored
+  in further detail below.
+
+\end{itemize}
+
+\subsection{Eclipsing Binary Stars}
+{\bf Edit in text from below}
+\subsection{Pulsating Variable Stars}
+\subsection{Long Period Variable Stars}
+\subsection{Other}
+
+\section{Automated Classification}
+
+We next describe feature selection of the lightcurves and supervised
+learning of the boundaries between the different lightcurve classes.
+Feature selection requires reducing the time--series lightcurve to a
+set of numbers that summarize its behavior, such as period, amplitude,
+and skew.  When initially approaching a problem, it is difficult to
+know {\it a--priori} which features are most important for
+distinguishing one class of objects from another.  Thus it is typical
+to select many features from the lightcurves, and to let the
+classifiers determine which are most important.  Similar efforts have
+been described for optical lightcurves in the works of
+\cite{2008AN....329..288M}, \cite{2011ApJ...733...10R},
+\cite{2012MNRAS.427.2917R}, and \cite{LINEAR-3}.
+
+In an analysis of data from the LINEAR survey, \cite{LINEAR-3} use
+lightcurve period, amplitude, skew, and color as features for
+classification.  As we have 3--band lightcurves, we construct colors
+from the median of the $J-H$ and $H-K$ lightcurvse.  We simlarly use
+the instantaneous [W1-W2] colors from the WISE survey \cite{wise},
+with the cavet that these are acquired at random phases in each
+lightcurve.  Lightcurve skews are calculated using the $J$, $J-H$, and
+$H-K$ lightcurves, and amplitudes are derived using the 5\% to 95\%
+measured range in $J$, $J-H$, and $H-K$.  This yields 1 period, 3
+colors, 3 amplitudes, and 3 skews as core lightcurve features.
+
+\cite{asas} find that by Fourier expanding lightcurves using the
+series:
+\[m(\phi) = A_0 - \sum_{i=1}^4 A_i {\rm cos}(2 \pi i \phi + \varphi) + B_i {\rm sin}(2 \pi i \phi + \varphi)\]
+the contact and detached binary systems may be separated out by
+looking at the distributions of A$_4$ vs. A$_2$, and the pulsators may
+be separated from the contact systems by additionally looking at
+B$_1$.  This adds 3 additional features into our input set, yielding a
+total of 13.
+
+
+\section{Conclusions}
+
+
 
 \begin{center}
 {\color{red} \line(1,0){250}}
@@ -521,7 +603,7 @@ This publication makes use of data products from the Two Micron All Sky Survey, 
 \input{rr_table}
 
 
-\bibliography{/Users/james/research/references}
+\bibliography{refs,/Users/james/research/references}
 \end{document}
 
 

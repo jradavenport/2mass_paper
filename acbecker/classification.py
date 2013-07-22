@@ -330,6 +330,7 @@ print "SVC", trainingSample.shape, "->", trainingSample_svc.shape
 clf = ExtraTreesClassifier(random_state=0)
 trainingSample_etc = clf.fit(trainingSample, classLabels).transform(trainingSample)
 print "ETC", trainingSample.shape, "->", trainingSample_etc.shape, clf.feature_importances_
+import pdb; pdb.set_trace()
 
 # To capture all the plots:
 from matplotlib.backends.backend_pdf import PdfPages
